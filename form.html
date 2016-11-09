@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>${$school.school_alias}<!--{if $event}-->　${$event.event_name}<!--{/if}--><!--{if $form}-->　${$form.title}<!--{/if}--></title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta name="robots" content="noindex,follow,noydir,noodp" />
+
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/form/style.css">
+	<link rel="stylesheet" media="all" type="text/css" href="css/form/custom.css" />
+
+	<!--[if lt IE 9]>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div class="container">
+		<header class="pageHeader clearfix">
+			<h1 class="pageTitle"><img src="img/form/header_pc.jpg" alt="${$schoo.school_alias}" width="300" height="80"></h1>
+			<div class="verisign"><span id="ss_gmo_img_wrapper_100-50_image_ja"><a href="https://jp.globalsign.com/" target="_blank" rel="nofollow"><img alt="SSL　GMOグローバルサインのサイトシール" border="0" id="ss_img" src="//seal.globalsign.com/SiteSeal/images/gs_noscript_100-50_ja.gif"></a></span><script type="text/javascript" src="//seal.globalsign.com/SiteSeal/gmogs_image_100-50_ja.js" defer="defer"></script></div>
+			<p class="tel"><a href="tel:${$school.school_freedial}">お電話の申し込みはこちら<br><span class="tel_number"><i class="fa fa-phone"></i><!--{$school.school_freedial}--></span></a></p>
+		</header>
+<!--// 検索結果サイドナビ //-->
+<!--{include file="html:.templates/.form.html"}-->
+<!--// 検索結果サイドナビ //-->
+	</div>
+<!--// トラッキング //-->
+<!--{include file="html:.templates/.tracking.html"}-->
+<!--// トラッキング //-->
+</body>
+</html>

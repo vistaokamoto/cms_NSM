@@ -1,0 +1,190 @@
+/*
+  jQuery MegaMenu Plugin
+  Author: GeekTantra
+  Author URI: http://www.geektantra.com
+*/
+body {
+  font-size: 13px;
+  margin: 0px;
+}
+ul.megamenu {
+  margin: 0px auto;
+  list-style: none;
+  display: none;
+}
+
+ul.megamenu li.mm-item {
+  height: 45px;
+}
+
+ul.megamenu li {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul.megamenu li.clear-fix {
+  float: none;
+  clear: both;
+  margin: 0px;
+  padding: 0px;
+  height: 0px;
+  font-size: 0px;
+  line-height: 0px;
+}
+
+ul.megamenu a.mm-item-link:link, ul.megamenu a.mm-item-link:visited {
+  position: relative;
+  display: inline-block;
+  color: #FFF;
+  /*padding: 8px 15px;*/
+  /*margin: 0px 3px 0px 0px;*/
+  text-decoration: none;
+  z-index: 10;
+  font-size: 14px;
+/*  border-top: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;*/
+}
+*html ul.megamenu a.mm-item-link:link, *html ul.megamenu a.mm-item-link:visited {
+  border-color: pink;
+  filter: chroma(color=pink);
+}
+
+ul.megamenu a.mm-item-link-hover:link, ul.megamenu a.mm-item-link-hover:visited {
+/*  color: #444;
+  background: #FFF;
+  border-top: 1px solid #777;
+  border-left: 1px solid #777;
+  border-right: 1px solid #777;
+  -moz-border-radius: 3px 3px 0px 0px;
+  border-radius: 3px 3px 0px 0px;*/
+}
+
+ul.megamenu div.mm-item-content {
+  background: #EFEFEF;
+  padding: 0px;
+  position: absolute;
+  border: 2px solid #333;
+  /*border-bottom: 3px solid #505050;*/
+  z-index: 9;
+		top:208px;
+		margin-top: 1px;
+}
+
+.mm-content-base {
+  background: #FFF;
+  color: #333;
+  position: relative;
+  border-top: none;
+  z-index: 11;
+  padding: 10px;
+}
+.mm-js-shadow {
+  background: #555;
+  position: absolute;
+  z-index: 10;
+}
+
+/*gnaviのwidth指定入れてます。*/
+.gnavi_l_box .gnavi_l .mm-content-base {
+  overflow: hidden;
+}
+/*学校紹介*/
+.gnavi_l_box .gnavi_l .gnavi_l_school {
+  width: 620px;
+}
+.gnavi_l_box .gnavi_l .gnavi_l_school li {
+  width: 200px;
+  float: left;
+}
+.gnavi_l_box .gnavi_l .gnavi_l_school li a {
+  padding: 5px 0 5px 6px;
+}
+/*学科・コース紹介*/
+.gnavi_l_box .gnavi_l .gnavi_l_course {
+  width: 620px;
+}
+.gnavi_l_box .gnavi_l div.gnavi_l_course dl {
+  width: 180px;
+  margin-right: 20px;
+  float: left;
+}
+.gnavi_l_box .gnavi_l div.gnavi_l_course dt {
+  font-weight: bold;
+}
+.gnavi_l_box .gnavi_l div.gnavi_l_course dd {
+}
+.gnavi_l_box .gnavi_l div.gnavi_l_course dd li {
+  display: block;
+  width: 190px;
+}
+/*講師紹介*/
+.gnavi_l_box .gnavi_l .gnavi_l_instructor {
+  width: 420px;
+}
+.gnavi_l_box .gnavi_l .gnavi_l_instructor ul {
+  width: 190px;
+  float: left;
+}
+.gnavi_l_box .gnavi_l .gnavi_l_instructor li a {
+  padding: 5px 0 5px 6px;
+  width: 190px;
+}
+.gnavi_l_box .gnavi_l .gnavi_l_instructor ul.lastChild {
+  width: 200px;
+}
+.gnavi_l_box .gnavi_l .gnavi_l_instructor ul.lastChild li a {
+  width: 200px;
+}
+/*スタッフ紹介*/
+.gnavi_l_box .gnavi_l .gnavi_l_staff {
+  width: 400px;
+}
+.gnavi_l_box .gnavi_l .gnavi_l_staff ul {
+  width: 190px;
+  float: left;
+}
+.gnavi_l_box .gnavi_l .gnavi_l_staff li a {
+  padding: 5px 0 5px 6px;
+  width: 180px;
+}
+
+/*デビュー・就職*/
+.gnavi_l_box .gnavi_l .gnavi_l_debut {
+  width: 460px;
+}
+.gnavi_l_box .gnavi_l .gnavi_l_debut li a {
+  padding: 5px 0 5px 6px;
+  width: 140px;
+/*  font-weight: bold;*/
+}
+/*学園生活*/
+.gnavi_l_box .gnavi_l .gnavi_l_schoollife {
+  width: 470px;
+}
+.gnavi_l_box .gnavi_l .gnavi_l_schoollife li a {
+  padding: 5px 0 5px 6px;
+  display: inline-block;
+  margin-right: 30px;
+/*  font-weight: bold;*/
+}
+/*入学案内*/
+.gnavi_l_box .gnavi_l .gnavi_l_invitation {
+  width: 420px;
+}
+.gnavi_l_box .gnavi_l .gnavi_l_invitation li a {
+  padding: 5px 0 5px 6px;
+  display: inline-block;
+  margin-right: 30px;
+/*  font-weight: bold;*/
+}
+/*gnavi共通*/
+.gnavi_l_box .gnavi_l div a {
+  text-decoration: underline;
+  color: #333;
+  background: url(../img/ico_f_link_b.png) no-repeat left center;
+  padding-left: 6px;
+}
+.gnavi_l_box .gnavi_l div a:hover {
+  text-decoration: none;
+}

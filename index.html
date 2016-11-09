@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--{include file="html:.templates/.meta.html"}-->
+<script src="js/jquery.matchHeight.js"></script>
+<link rel="stylesheet" media="all" type="text/css" href="css/slick-theme.css" />
+<link rel="stylesheet" media="all" type="text/css" href="css/slick.css" />
+<link rel="stylesheet" media="all" type="text/css" href="css/custom.css" />
+<script>
+$(function(){
+  $('.js-matchHeigtht').matchHeight();
+  var src;
+  $('.allbtn img').each(function(){
+    //preload
+    var path = $(this).attr('src').replace(/(\.jpg|\.png|\.gif|\.jpeg)$/, '_on$1');
+    var img = new Image();
+    img.src = path;
+  });
+  $('.allbtn img').hover(function(){
+    src = $(this).attr('src');
+    $(this).attr('src', src.replace(/(\.jpg|\.png|\.gif|\.jpeg)$/, '_on$1'));
+  }, function(){
+    $(this).attr('src', src);
+  });
+});
+</script>
+<style type="text/css">
+@media screen and (min-width: 768px) {
+    div.ui-datepicker {
+        font-size: 2.1rem;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    div.ui-datepicker {
+        font-size: 2rem;
+        margin: 0 auto;
+    }
+    .ui-datepicker th {
+        padding: 1rem .3em;
+    }
+}
+.ui-datepicker th {
+    padding: 0.5em 0.3em;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    height: 30px;
+}
+</style>
+<!--[if lt IE 9]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<link rel="shortcut icon" href="img/favicon.ico" >
+</head>
+<body>
+<!--// ヘッダー //-->
+<!--{include file="html:.templates/.header.html"}-->
+<!--// ヘッダー //-->
+
+<!--// スライダー //-->
+<!--{include file="html:.templates/.slider.html"}-->
+<!--// スライダー //-->
+
+<section id="contant">
+
+	<nav id="searchlinkNav" class="pc_none">
+        <ul>
+            <li><a href="#cal_area"><i class="fa fa-arrow-down" aria-hidden="true"></i>日程から選ぶ</a></li>
+            <li><a href="#event_area"><i class="fa fa-arrow-down" aria-hidden="true"></i>分野から選ぶ</a></li>
+        </ul>
+    </nav>
+
+	 <!--<p class="pick_up_banner sp_none"><a href="e-myschool_sp_excursion.html"><img src="img/index/bnr_excursion960.jpg" alt="秋のMyスクール遠足" class="overBtn"></a></p>-->
+	 <!--<p class="pick_up_banner pc_none"><a href="e-myschool_sp_excursion.html"><img src="img/index/bnr_excursion960_600.jpg" alt="秋のMyスクール遠足" class="overBtn"></a></p>-->
+	 <p class="pick_up_banner bnr_flex50"><a href="results.html?keyword=NSM1%E6%97%A5%E5%85%A5%E5%AD%A6%E4%BD%93%E9%A8%93DAY"><img src="img/index/bnr_1day960.jpg" alt="NSM1日入学体験DAY" class="overBtn"></a>
+     <a href="http://www.nca.ac.jp/information/oshifes/" target="_blank" class="sp_none"><img src="img/index/bnr_oshifes960.png" alt="お仕事体験フェスタ" class="overBtn"></a><a href="http://nca.ac.jp/information/oshifes/" target="_blank" class="pc_none"><img src="img/index/bnr_oshifes960.png" alt="お仕事体験フェスタ" class="overBtn"></a>
+     <a href="e-xmasfes2016.html"><img src="img/index/bnr_xmas960.jpg" alt="クリスマスフェスタ" class="overBtn"></a></p>
+      <p class="pick_up_banner pc_none"><!--<a href="http://www.nsm.ac.jp/information/hospital_of_miracle/index.html" target="_blank"><img src="http://www.nsm.ac.jp/information/hospital_of_miracle/img/bnr_960.jpg" alt="Hospital of Miracle" class="overBtn"></a>--> <!--<a href="http://www.nsm.ac.jp/event/e-students_performance.html" target="_blank"><img src="img/results/students_performance/bnr.jpg" alt="" class="overBtn"></a>--> <!--<a href="http://www.nsm.ac.jp/information/koushien/index.html" target="_blank"><img src="http://www.nsm.ac.jp/information/koushien/img/bnr_960.jpg" alt="Hospital of Miracle" class="overBtn" style="margin-top:5px;"></a>--> </p> 
+
+	<!-- <p class="pick_up_banner"><a href="http://www.nsm.ac.jp/information/aozorayell/index.html" target="_blank"><img src="http://www.nsm.ac.jp/img/bnr_aozorayell_960.jpg" alt="" class="overBtn sp_none"><img src="http://nsm.ac.jp/img/bnr_aozorayell_640.jpg" alt="" class="overBtn pc_none"></a></p> -->
+
+<!--// カレンダー //-->
+<!--{include file="html:.templates/.cal.html"}-->
+<!--// カレンダー //-->
+
+	<div id="event_area">
+		<p class="tit">分野から選ぶ</p>
+		<p style="margin-top: 5px;" class="allbtn"><a href="results.html?type=3"><img alt="スペシャルゲスト - あなたの進路を徹底応援！スペシャルゲスト来校！" src="img/index/mu_special_guest_b.png"></a></p>
+		<div class="event_box allbtn">
+			<p class="event"><a href="results.html?date=&category%5B%5D=735"><img alt="ヴォーカル - 歌うことが好き！音楽に関わる仕事がしたい！" src="img/index/mu_vocal.png"></a></p>
+			<p class="event"><a href="results.html?date=&category%5B%5D=736"><img alt="ミュージシャン - 楽器を弾くことが好き！音楽に関わる仕事がしたい！" src="img/index/mu_musician.png"></a></p>
+			<p class="event"><a href="results.html?date=&category%5B%5D=737"><img alt="コンサートスタッフ - コンサートの仕事がしたい！華やかな舞台を演出したい！" src="img/index/mu_concert.png"></a></p>
+			<p class="event"><a href="results.html?date=&category%5B%5D=738"><img alt="マネージャー･ファンクラブスタッフ - アーティストと関わる仕事がしたい！" src="img/index/mu_business.png"></a></p>
+			<p class="event"><a href="results.html?date=&category%5B%5D=739"><img alt="作曲家･レコーディングエンジニア - アーティストの楽曲を制作･編曲したい！" src="img/index/mu_creater.png"></a></p>
+			<p class="event"><a href="results.html?date=&category%5B%5D=741"><img alt="ダンス - ダンスが好き！踊ることで自分を表現したい！" src="img/index/mu_dance.png"></a></p>
+			<p class="event"><a href="results.html?date=&category%5B%5D=742"><img alt="声優･アニソン - 声を仕事に！声で人々に元気と喜びを与える！！" src="img/index/mu_v_actor.png"></a></p>
+			<p class="event"><a href="results.html?date=&category%5B%5D=743"><img alt="俳優 - 演技を仕事に！声や演技で人々に元気と喜びを与える！！" src="img/index/mu_actor.png"></a></p>
+		</div>
+	</div>
+	
+	<div class="clearfix"></div>
+
+	<div class="time_schedule sp_none">
+<p>職業＆仕事体験＋オープンキャンパス 当日のスケジュール</p>
+<img src="img/common/time_schedule.jpg" alt="当日のスケジュール">
+<p class="index_attention">●昼食は軽く済ませてからご参加ください。<br>
+●2回目以降は体験授業からの参加でもOK!!(受付12:15～12:45)<br>
+●ギター、ベース、ドラムスティックなどをお持ちの方は持参してください。<br>
+●ダンス参加の人は動きやすい服と靴を持参してください。<br>
+●服装も自由にしていただいて結構です。<br>
+●タイムスケジュールは、イベント内容により異なります。 </p>
+</div>
+
+<script type="text/javascript">
+//accordion
+$(document).ready(function() {
+	$(".accMenu p.acc_p").hover(function(){
+		$(this).css("cursor","pointer"); 
+	},function(){
+		$(this).css("cursor","default"); 
+		});
+	$(".accMenu div.acc_div").css("display","none");
+	
+	$(".accMenu p.acc_p").click(function(){
+		$(this).next().slideToggle("fast,");
+		$(this).toggleClass("open");
+		});
+});
+</script>
+
+<div class="pc_none">
+<dl class="schedule" style="padding-bottom:0;">
+<dt>【当日のスケジュール】</dt>
+<dd style="padding-bottom:0; border-bottom:none;" class="marB0">11:30 スタート／16:30 終了予定</dd>
+</dl>
+
+<div class="accMenu"><p class="title acc_p"><span>詳細はこちら</span></p><div class="acc_div">
+
+<dl class="clearfix">
+
+<dt><img src="img/common/time_schedule01.jpg"></dt>
+<dd>
+<p class="time">11:30～</p>
+受付<br>
+<span>受付：第1校舎1F<br>
+※昼食は済ませてからご参加ください。</span></dd>
+
+<dt><img src="img/common/time_schedule02.jpg"></dt>
+<dd>
+<p class="time">12:00～</p>
+学校説明会・校舎見学<br>
+<span>2回目以降の方は職業体験からの参加でOK(12:30受付)</span></dd>
+
+<dt><img src="img/common/time_schedule03.jpg"></dt>
+<dd>
+<p class="time">13:15～</p>
+職業体験<br>
+<span>保護者説明会同時開催</span></dd>
+
+<dt><img src="img/common/time_schedule04.jpg"></dt>
+<dd>
+<p class="time">14:45～</p>
+何でも相談会<br>
+<span>スタッフや在校生とたくさんお話しよう！</span></dd>
+
+<dt><img src="img/common/time_schedule05.jpg"></dt>
+<dd>
+<p class="time">16:30</p>
+終了予定<br>
+<span>希望者の方は専用寮を見学できます。</span></dd>
+
+</dl>
+
+</div>
+</div>
+
+<p class="index_attention">●昼食は軽く済ませてからご参加ください。<br>
+●2回目以降は体験授業からの参加でもOK!!(受付12:15～12:45)<br>
+●ギター、ベース、ドラムスティックなどをお持ちの方は持参してください。<br>
+●ダンス参加の人は動きやすい服と靴を持参してください。<br>
+●服装も自由にしていただいて結構です。<br>
+●タイムスケジュールは、イベント内容により異なります。 </p>
+
+</div>
+
+
+	<!-- その他のオープンキャンパスメニュー -->
+	<div id="other_area">
+	<p>その他のオープンキャンパスメニュー</p>
+
+	<ul class="clearfix">
+	<li><a href="results.html?keyword=%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AB%E5%90%88%E3%81%A3%E3%81%9F%E8%AA%AC%E6%98%8E%E4%BC%9A%E3%82%92%E9%81%B8%E3%82%93%E3%81%A7%E5%8F%82%E5%8A%A0%E3%81%97%E3%82%88%E3%81%86%EF%BC%81"><img src="img/index/thum_explain_school.jpg">学校説明会</a></li>
+	<!--<li><a href="e-explain_school.html"><img src="img/index/thum_explain_school.jpg">学校説明会</a></li>-->
+	<!-- <li><a href="e-explain_ao.html"><img src="img/index/thum_explain_ao.jpg">AO入試説明会</a></li> -->
+	<!--<li><a href="e-explain_syutsugan.html"><img src="img/index/thum_explain_syutshugan.jpg">AO入試出願説明会</a></li>-->
+	<!--<li class="other_area_two_line"><a href="e-explain_mensetsu_sakubun.html"><img src="img/index/thum_explain_mensetsu.jpg">合格に近づくための<br>
+	作文添削＆模擬面接会</a></li>-->
+	<!--<li class="other_area_two_line"><a href="e-explain_sakubun.html"><img src="img/index/thum_explain_gakuhi.jpg">夏休みまでに終わらせよう！<br class="pc_none">入試前の作文講習会</a></li>-->
+	<li><a href="results.html?keyword=%E5%85%A5%E8%A9%A6%E3%81%BE%E3%82%8B%E3%82%8F%E3%81%8B%E3%82%8A%E8%AA%AC%E6%98%8E%E4%BC%9A"><img src="img/index/thum_entry.jpg">入試まるわかり説明会</a></li>
+	<li><a href="e-explain_scholarships.html"><img src="img/index/thum_explain_gakuhi.jpg">学費・奨学金説明会</a></li>
+	<li><a href="results.html?keyword=%E4%BF%9D%E8%AD%B7%E8%80%85%E8%AA%AC%E6%98%8E%E4%BC%9A"><img src="img/index/thum_explain_hogosya.jpg">保護者説明会</a></li>
+	<!--<li><a href="e-total_explain.html"><img src="img/index/thum_explain_school.jpg">学校・入試・進路説明会</a></li>-->
+	<li><a href="e-explain_individually.html"><img src="img/index/thum_explain_gakuhi.jpg">平日授業見学会</a></li>
+	<!--<li><a href="e-kisotsu_explain.html"><img src="img/index/thum_night.jpg">社会人・大学生説明会</a></li>
+	<li><a href="e-explain_night.html"><img src="img/index/thum_night.jpg">夜間学校説明会</a></li>-->
+	<li><a href="e-explain_abroad.html"><img src="img/index/thum_explain_abroad.jpg">留学生の方</a></li>
+	<li class="other_area_two_line"><a href="myschool.html"><img src="img/index/thum_myschool.jpg">Myスクール<br>
+	プログラム</a></li>
+	<li class="other_area_two_line"><a href="entryspecial.html"><img src="img/index/thum_entryspecial.jpg">AOエントリー者<br>
+	限定レッスン</a></li>
+	<li class="other_area_two_line"><a href="guidance.html"><img src="img/index/thum_guidance.jpg">あなたの街での<br>
+	説明会</a></li>
+	<li><a href="bus.html"><img src="img/index/thum_bus.jpg">無料送迎バス</a></li>
+	<li class="other_area_two_line"><a href="http://nsm.ac.jp/schoolmovie/musician.html"><img src="img/index/thum_vocal_movie.jpg">ヴォーカル在校生<br>紹介動画</a></li>
+	<li class="other_area_three_line"><a href="http://hptest.vista.ne.jp/nsm_2016/information/point_actor/index.html"><img src="img/index/thum_point_actor.jpg">声優・俳優になるための学校<br>選びのポイント教えます！</a></li>
+	<li><a href="e-dormitory.html"><img src="img/index/thum_ryo.jpg">体験入寮</a></li>
+	</ul>
+	</div>
+	<!-- その他のオープンキャンパスメニュー -->
+
+
+</section>
+
+<!--// フッター //-->
+<!--{include file="html:.templates/.footer.html"}-->
+<!--// フッター //-->
+<!--// トラッキング //-->
+<!--{include file="html:.templates/.tracking.html"}-->
+<!--// トラッキング //-->
+</body>
+</html>

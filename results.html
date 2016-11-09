@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--{include file="html:.templates/.meta.html"}-->
+<link rel="stylesheet" media="all" type="text/css" href="css/custom.css" />
+<style type="text/css">
+@media screen and (min-width: 768px) {
+	div.ui-datepicker {
+		font-size: 1.6rem !important;
+		margin: 0 auto;
+	}
+}
+@media screen and (max-width: 767px) {
+	div.ui-datepicker {
+        font-size: 1.6rem;
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+.ui-datepicker th {
+    padding: 0.5em 0.3em;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    height: 30px;
+}
+</style>
+
+<!--[if lt IE 9]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<link rel="shortcut icon" href="img/favicon.ico" >
+</head>
+<body>
+<!--// ヘッダー //-->
+<!--{include file="html:.templates/.header.html"}-->
+<!--// ヘッダー //-->
+
+<section id="contant">
+<!--// 検索結果パンくず //-->
+<!--{include file="html:.templates/.results_pankuzu.html"}-->
+<!--// 検索結果パンくず //-->
+
+	<div class="right">
+
+<!--// 検索結果メイン //-->
+<!--{include file="html:.templates/.results_main.html"}-->
+<!--// 検索結果メイン //-->
+
+	</div><!--end .right-->
+
+	<div class="left">
+<!--// 検索結果サイドナビ //-->
+<!--{include file="html:.templates/.results_side.html"}-->
+<!--// 検索結果サイドナビ //-->
+
+<!--// 学校個別サイドエリア //-->
+<!--{include file="html:/"|cat:$school.school_id|cat:"/side_area.html"}-->
+<!--// 学校個別サイドエリア //-->
+
+	</div><!--end .left-->
+
+	<div class="sp_cover_btn">
+		<a href="javascript:void(0);" class="btn_left reset"><i class="fa fa-repeat btn_ico"></i><span>検索条件を</span><br>リセットする</a>
+		<a href="javascript:document.getElementById('find').submit();" class="btn_right active"><span>この条件で</span><br>検索する</a>
+	</div>
+
+</section>
+<!--// フッター //-->
+<!--{include file="html:.templates/.footer.html"}-->
+<!--// フッター //-->
+<!--// トラッキング //-->
+<!--{include file="html:.templates/.tracking.html"}-->
+<!--// トラッキング //-->
+</body>
+</html>

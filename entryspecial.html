@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="utf-8">
+<title>${$school.school_name}</title>
+<meta name="description" content="${$school.school_name}">
+<meta name="keywords" content="${$school.school_name}">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1/i18n/jquery.ui.datepicker-ja.min.js"></script>
+<script src="js/jquery-ui.multidatespicker.js"></script>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1/themes/ui-lightness/jquery-ui.css" >
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link href="http://www.nsm.ac.jp/common/css/myschool.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" media="all" type="text/css" href="css/style.css" />
+<link rel="stylesheet" media="all" type="text/css" href="css/custom.css" />
+<style type="text/css">
+@media screen and (min-width: 768px) {
+	div.ui-datepicker {
+		font-size: 1.6rem !important;
+		margin: 0 auto;
+	}
+}
+@media screen and (max-width: 767px) {
+	div.ui-datepicker {
+        font-size: 1.6rem;
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+.ui-datepicker th {
+    padding: 0.5em 0.3em;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    height: 30px;
+}
+</style>
+
+<!--[if lt IE 9]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<link rel="shortcut icon" href="img/favicon.ico" >
+</head>
+<body>
+<!--// ヘッダー //-->
+<!--{include file="html:.templates/.header.html"}-->
+<!--// ヘッダー //-->
+
+<section id="contant">
+<!--// 検索結果パンくず //-->
+<!--{include file="html:.templates/.results_pankuzu.html"}-->
+<!--// 検索結果パンくず //-->
+
+	<div class="right">
+
+	<div id="Myschool">
+<script type="text/javascript">
+//accordion
+$(document).ready(function() {
+  $(".accMenu_myschool p.title").hover(function(){
+    $(this).css("cursor","pointer"); 
+  },function(){
+    $(this).css("cursor","default"); 
+    });
+  $(".accMenu_myschool div.Myschool_cont_open").css("display","none");
+  
+  $(".accMenu_myschool p.title").click(function(){
+    $(this).next().slideToggle("fast,");
+    $(this).toggleClass("open");
+    });
+});
+</script>
+
+<h3 class="mgBottom10">AO入試エントリー・出願者限定 入学前準備レッスン開催!!</h3>
+
+<!--<div class="clearfix mgBottom10">
+<p class=" center"><a href="myschool_training_camp.html"><img src="img/myschool/mysc_20160430.jpg" alt="Myスクール合宿" class="overBtn"></a></p>
+</div>-->
+
+<p class="mgBottom30"><img src="img/entryspecial/main_01.png" alt="AO入試エントリー・出願者限定 入学前準備レッスン開催!!" width="100%" /></p>
+
+
+<h5 class="h5_text mgBottom10">入学前にひと足先に動き出せる！！<br>
+友達づくりも出来る！</h5>
+
+  <p class="font14" style="margin: 10px 0;">このレッスンは､AO入試エントリー・出願いただいた方限定のレッスンになります｡ </p>
+
+
+<h4 class="midashiBox">レッスン内容</h4>
+
+<p class="font14" style="margin: 10px 0;">AO入試エントリー・出願をされたみなさんが、少しでも早く夢や目標に向かって進んでいただけるようNSMでは、AOエントリー・出願者限定入学前準備レッスンを毎月開催！<br>
+あなたのやる気を入学前からカタチにしていこう！</p>
+<div class="sp_none">
+<h4 class="midashiBox">Myスクール担任紹介</h4>
+<p class="font14">私たちが、あなたの夢を徹底サポート！</p>
+<div class="Myschool_teacher_box mgBottom10 mgTop10">
+<dl>
+<dt>Myスクール担任とは？</dt>
+<dd>Myスクール生の皆さんと一緒にレッスンやお楽しみイベントに参加しながら皆さん１人１人の不安や悩みを解決し、進路決定まで徹底サポート！「まだやりたいことがはっきり決まっていないけどどうしたらいいの？」「学校選びのポイントって？」「入学までにどんなことを準備しておけばいいの？」など、何でもご相談下さい♪</dd>
+</dl>
+</div>
+<div class="clearfix mgBottom10">
+<img src="img/myschool/myschool3_pc.jpg" alt="Myスクール担任紹介" width="100%" />
+</div>
+</div>
+
+<div class="accMenu_myschool pc_none"><p class="title"><span>Myスクール担任紹介</span></p>
+<div class="Myschool_cont_open">
+<p class="font14">私たちが、あなたの夢を徹底サポート！</p>
+<div class="Myschool_teacher_box mgBottom10 mgTop10">
+<dl>
+<dt>Myスクール担任とは？</dt>
+<dd>Myスクール生の皆さんと一緒にレッスンやお楽しみイベントに参加しながら皆さん１人１人の不安や悩みを解決し、進路決定まで徹底サポート！「まだやりたいことがはっきり決まっていないけどどうしたらいいの？」「学校選びのポイントって？」「入学までにどんなことを準備しておけばいいの？」など、何でもご相談下さい♪</dd>
+</dl>
+</div>
+<p><img src="img/myschool/myschool3_sp01.jpg" alt="" width="100%" />
+<img src="img/myschool/myschool3_sp02.jpg" alt="" width="100%" /></p>
+  </div>
+  </div>
+<!-- <h5 class="h5_text">レッスンを選ぶ</h5>
+<div class="btn_area">
+<a href="e-entryspecial_vocal.html" class="results_entry_btn">ヴォーカリスト</a>
+<a href="e-entryspecial_musician.html" class="results_entry_btn">ミュージシャン</a>
+</div>
+<div class="btn_area">
+<a href="e-entryspecial_concert.html" class="results_entry_btn">音響（PA）</a>
+<a href="e-entryspecial_concert_light.html" class="results_entry_btn">照明</a>
+</div>
+<div class="btn_area">
+<a href="e-entryspecial_business.html" class="results_entry_btn">コンサート企画･マネージャー</a>
+<a href="e-entryspecial_creator.html" class="results_entry_btn">レコーディング･作曲</a>
+</div>
+<div class="btn_area">
+<a href="e-entryspecial_dance.html" class="results_entry_btn">ダンサー</a>
+<a href="e-entryspecial_actor.html" class="results_entry_btn">声優・俳優</a>
+</div> -->
+<div class="btn_area">
+<a href="results.html?date=&type[]=12%2C13&keyword=%E5%85%A5%E5%AD%A6%E5%89%8D%E6%BA%96%E5%82%99%E3%83%AC%E3%83%83%E3%82%B9%E3%83%B3" class="results_entry_btn">入学前準備レッスンを見る</a>
+</div>
+
+</div>
+
+	</div><!--end .right-->
+
+	<div class="left">
+<!--// 検索結果サイドナビ //-->
+<!--{include file="html:.templates/.results_side.html"}-->
+<!--// 検索結果サイドナビ //-->
+
+<!--// 学校個別サイドエリア //-->
+<!--{include file="html:/"|cat:$school.school_id|cat:"/side_area.html"}-->
+<!--// 学校個別サイドエリア //-->
+
+	</div><!--end .left-->
+
+	<div class="sp_cover_btn">
+		<a href="javascript:void(0);" class="btn_left reset"><i class="fa fa-repeat btn_ico"></i><span>検索条件を</span><br>リセットする</a>
+		<a href="javascript:document.getElementById('find').submit();" class="btn_right active"><span>この条件で</span><br>検索する</a>
+	</div>
+
+</section>
+<!--// フッター //-->
+<!--{include file="html:.templates/.footer.html"}-->
+<!--// フッター //-->
+<!--// トラッキング //-->
+<!--{include file="html:.templates/.tracking.html"}-->
+<!--// トラッキング //-->
+</body>
+</html>

@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* reset CSS （基本的に触らない）
+--------------------------------*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-style: normal;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+caption,th {
+    text-align: left;
+}
+
+q:before,q:after {
+    content: '';
+}
+
+object,
+embed {
+    vertical-align: top;
+}
+
+hr,legend {
+    display: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-size: 100%;
+}
+
+img,abbr,acronym,fieldset {
+    border: 0;
+}
+/*
+img {
+	vertical-align:bottom;
+}
+*/
+li {
+    list-style-type: none;
+}
+
+.table {
+    background-color: #CCC;
+}
+
+.table td {
+    width: 40px;
+    background-color: #FFF;
+    padding: 3px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.kome {
+    margin-top: 5px;
+    font-size: 10px;
+}
+
+table.waku {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 1px;
+}

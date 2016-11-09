@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="utf-8">
+<title>${$school.school_name}</title>
+<meta name="description" content="${$school.school_name}">
+<meta name="keywords" content="${$school.school_name}">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1/themes/ui-lightness/jquery-ui.css" >
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" media="all" type="text/css" href="css/bus.css" />
+<link rel="stylesheet" media="all" type="text/css" href="css/custom.css" />
+<!--[if lt IE 9]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+<!--// ヘッダー //-->
+<!--{include file="html:.templates/.header.html"}-->
+<!--// ヘッダー //-->
+
+<div id="content">
+	<div class="title">
+		<img src="img/bus/title.png" alt="">
+	</div>
+	<div class="attention">
+		<p class="copy">体験入学・説明会に参加する方のために、あなたの住む地域から本校までの<br>無料送迎バスを運行します。お友達や保護者の方とぜひご利用ください。</p>
+		<p class="sub_title">確認・注意事項</p>
+		<div class="table_area">
+			<table>
+				<tbody>
+					<tr>
+						<td class="col">完全予約制</td>
+						<td class="add">フリーダイヤルにて<span>3日前</span>までにご予約ください。<br>
+							ご予約は各イベント申し込みと同時に可能です。イベント情報は<a href="index.html">こちら</a><br>
+ご予約後のキャンセルはお電話にて必ずご連絡ください。また、参加当日のスケジュールは、保護者の方に必ずお伝えください。<br>
+※バスの席数は、お友達は別に予約した際はご自身の分の数のみ選択してください。</td>
+					</tr>
+					<tr>
+						<td class="col">定員について</td>
+						<td class="add">バスには定員があります。必ずご予約の上、ご確認下さい。</td>
+					</tr>
+					<tr>
+						<td class="col">出発について</td>
+						<td class="add">当日は、定刻出発です。出発時刻の10分前には集合場所にお越し下さい。時間厳守でお願いします。定刻を過ぎても来られない場合は出発いたします。
+万が一キャンセルされる場合は、入学事務局 (0120-329-758) まで必ずご連絡下さい。</td>
+					</tr>
+					<tr>
+						<td class="col">昼食について</td>
+						<td class="add">昼食を持ってバスに乗車してください。</td>
+					</tr>
+					<tr>
+						<td class="col">乗車下車について</td>
+						<td class="add">バスは各駅から本校の間の往復運行になります。途中乗車・下車はできませんので、ご了承ください。</td>
+					</tr>
+					<tr>
+						<td class="col">帰りについて</td>
+						<td class="add">バスによる運行のため、交通渋滞などにより、当日のスケジュールが若干変更になる場合がありますので、ご了承ください。</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- <div class="girl_img"><img src="img/bus/girl.png" alt=""></div>
+			<p class="txt_b">交通費サポート実施中</p>
+			<p class="txt">無料送迎バスの日程が合わない方は、交通費サポートを使って体験入学に参加しよう！</p>
+			<p class="red_btn fade"><a href="#"><img src="img/bus/btn_red.png" alt=""></a></p> -->
+		</div>
+		<div class="bus_illast"><img src="img/bus/bus_illast.png" alt=""></div>
+	</div>
+
+<div id="bus_result_cont_box">
+<!--// バス検索結果 //-->
+<!--{include file="html:.templates/.bus.html"}-->
+<!--// バス検索結果 //-->
+</div>
+
+</div>
+
+<div class="bus_foot">
+		<p class="txt">
+			● バスには定員があります。必ずご予約の上、ご参加ください。<br>
+			● ウェブサイトからご予約は、各イベント・体験メニュー・説明会と同時にお申し込みができます。<br>
+    また、ご予約は各送迎バス運行日の3日前までとなります。それ以降のご予約はフリーダイヤルをご利用ください。
+		</p>
+		<p class="tel"><img src="img/bus/tel_icon.png">お申し込み・お問い合わせ ： <!--{$school.school_freedial}--></p>
+		<p class="setsumei fade"><a href="index.html"><img src="img/bus/btn_event.png" alt=""></a></p>
+</div>
+
+<ul class="foot_menu">
+	<li><a href="index.html">イベントトップ</a></li>
+	<li><a href="results.html?type[]=3">スペシャルメニュー</a></li>
+	<li><a href="bus.html">無料送迎バス</a></li>
+	<li><a href="#">学校説明会</a></li>
+	<li><a href="#">保護者説明会</a></li>
+	<li><a href="results.html?type[]=12,13">マイスクール</a></li>
+</ul>
+
+<div id="back_to_top"><a href="#"><img src="img/bus/back_btn.png"></a></div>
+<script>
+/*topに戻るボタン*/
+$(document).ready(function() {
+var pagetop = $('#back_to_top');
+	$(window).scroll(function () {
+		 if ($(this).scrollTop() > 100) {
+					pagetop.fadeIn();
+		 } else {
+					pagetop.fadeOut();
+					}
+		 });
+		 pagetop.click(function () {
+				 $('body, html').animate({ scrollTop: $('#area').offset().top }, 500);
+						return false;
+ });
+});
+</script>
+
+<!--// フッター //-->
+<!--{include file="html:.templates/.footer.html"}-->
+<!--// フッター //-->
+<!--// トラッキング //-->
+<!--{include file="html:.templates/.tracking.html"}-->
+<!--// トラッキング //-->
+</body>
+</html>

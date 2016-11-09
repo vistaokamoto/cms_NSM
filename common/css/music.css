@@ -1,0 +1,239 @@
+@charset "utf-8";
+
+
+/*音楽科共通-----------------------------------*/
+
+#header {
+	/*background:url(../img/music/h_back.gif) top repeat-x;*/
+	height: 128px;
+}
+#header .inner {
+	width: 900px;
+	/*height: 120px;*/
+	margin: 0 auto;
+	position:relative;
+}
+#header .inner p {
+	font-size: 12px;
+	position:absolute;
+	top: 5px;
+	left: 0;
+}
+#header .inner #logo {
+	display:block;
+	position:absolute;
+	top: 35px;
+	left: 0;
+}
+#header .inner #headerContact {
+	position:absolute;
+	top: 0px;
+	right: 0;
+}
+#header .inner #headerButtons {
+	position:absolute;
+	top: 50px;
+	right: 0;
+}
+
+#header #headerButtons li {
+	margin-left: 5px;
+}
+
+#header .inner #infoNavi {
+	position:absolute;
+	bottom: 15px;
+	left: 0;
+	font-size: 11px;
+	line-height: 105%;
+	border-right: 1px solid #03C;
+}
+
+
+
+/*グローバル白*/
+/*------------------------------*/
+
+#header #globalNavi {
+	background:url(../img/music/g_back.gif) repeat-x top;
+	top: 100px;
+}
+#header #globalNavi li ul {
+	margin: 0 1px;
+	width: 168px;
+}
+
+
+/*グローバル黒*/
+/*------------------------------*/
+#infoNavi_b {
+	background:url(../img/bg_Navi2.jpg) #FFF repeat-x top;
+	margin: 0;
+	padding-bottom: 15px;
+}
+#infoNavi_b .inner {
+	width: 900px;
+	margin: 0 auto;
+	height: 40px;
+}
+#infoNavi_b .inner:after {
+content: "";
+display: block;
+clear: both;
+}
+* html #infoNavi_b .inner {
+height: 1px;
+}
+*+html #infoNavi_b .inner {
+min-height: 1px;
+}
+#infoNavi_b dl {
+	float: left;
+	width: 220px;
+	border-left: 1px solid #FFF;
+}
+#infoNavi_b dt, #infoNavi_b dd {
+	margin: 0 25px;
+}
+#infoNavi_b dt {
+	text-align:center;
+	padding: 5px 0 15px 0;
+}
+#infoNavi_b dd {
+	padding: 0 0 5px 18px;
+	background:url(img/arrow.png) no-repeat 7px 0;
+}
+#infoNavi_b a:link, #infoNavi_b a:visited, #infoNavi_b a:hover{
+	color: #C00;
+}
+
+
+
+/*内容：サブナビ用*/
+/*------------------------------*/
+
+
+#subMenu img[alt="音楽・ダンス・声優：2年制"] {
+	margin-bottom: 15px;
+}
+
+/*※追加 ターゲットナビ文字サイズ
+#infoNavi_b dd{
+	font-size:14px;
+	}*/
+
+/*内容：コンテンツ基本セット*/
+/*------------------------------*/
+
+/*--------------------------------------
+/*サブナビ*/
+#subMenu img{
+	margin-bottom: 0px;
+}
+#subMenu dl {
+	border-bottom: #CCC solid 1px;
+}
+#subMenu dt {
+}
+#subMenu dd,#subMenu > ul {
+	border-left: #CCC solid 1px;
+	border-right: #CCC solid 1px;
+	/*padding: 4px;*/
+}
+
+#contents #subMenu dd.sub_detail ul {
+    margin: 0;
+    padding-bottom: 0;
+}
+
+#contents #subMenu dd.sub_detail {
+	background-color: #FFF;/*打消し*/
+}
+#subMenu dd.sub_detail li {
+	border-bottom: #CCC dotted 1px;
+	 padding-bottom: 0!important;
+}
+#subMenu dd.sub_detail li.last_child {
+	border-bottom: none;
+}
+#subMenu dd.sub_detail li a {
+	text-decoration: none;
+	color:#333;
+	background: url(../img/ico_sub_arrow.png) left center no-repeat;
+	padding: 8px 0 8px 18px;
+	display: block;
+}
+#subMenu dd.sub_detail a:hover,
+#subMenu dd.sub_detail a.current {
+	background-color: #EFEFEF;
+}
+
+#subMenu_cv{
+	width: 180px;
+	margin-top: 5px;
+}
+#subMenu_cv a img {
+	margin-top: 5px;
+}
+#subMenu_cv a:hover img{
+	opacity:0.6;
+	filter: alpha(opacity=70);
+	-ms-filter: "alpha( opacity=70 )";
+	background: #fff;
+}
+
+#subMenu_cv p{
+	margin: 5px 0 0 0;
+}
+
+
+#mainContents h2 {
+	/*background: url(../img/music/h2.gif) repeat-x top;*/
+	background: none;
+	border: 1px solid #CCC;
+	border-bottom: 3px solid #C00;
+	color: #000;
+	font-weight:bold;
+	font-size: 18px;
+}
+#mainContents h2.h2_img {
+	background: none;
+	border: none;
+	padding: 0;
+}
+#mainContents h3 {
+background: none;
+	background: #eeeeee;
+	border-left: 3px #FF0000 solid;
+	border-bottom: 1px #CCC solid;
+	color: #000;
+	font-weight:bold;
+}
+#mainContents h3.h3_img {
+	background: none;
+	padding: 0;
+	height:auto;
+		border-left: none;
+	border-bottom: none;
+}
+
+#mainContents h4 {
+	color: #C00;
+}
+#mainContents .boxed {
+	border: 3px solid #CCC;
+}
+
+
+/*フッタ*/
+/*------------------------------
+#footer {
+	background: url(../img/music/f_back.png) repeat-x left bottom;
+}
+#footer dl, #footer p, #footer p a:link, #footer p a:visited, #footer p a:hover, #footer dl a:link, #footer dl a:visited, #footer dl a:hover {
+	color: #FFF;
+}
+#footer .inner dl ul li {
+	border-left: 1px solid #FFF;
+}
+*/

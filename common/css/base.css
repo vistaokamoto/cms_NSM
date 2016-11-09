@@ -1,0 +1,518 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*------★イケダ追加分＿基本のCSS--------*/
+	
+/* マージン　パディング
+---------------------------------------------- */
+/* 上 */
+.mgTop0{
+	margin-top:0px!important;
+}
+
+.mgTop1{
+	margin-top:1px!important;
+}
+
+.mgTop2{
+	margin-top:2px!important;
+}
+
+.mgTop5{
+	margin-top:5px!important;
+}
+
+.mgTop10{
+	margin-top:10px!important;
+}
+
+.mgTop15{
+	margin-top:15px!important;
+}
+
+.mgTop20{
+	margin-top:20px!important;
+}
+
+.mgTop30{
+	margin-top:30px!important;
+}
+
+.mgTop50{
+	margin-top:50px!important;
+}
+
+.pdTop1{
+	padding-top:1px!important;
+}
+
+.pdTop2{
+	padding-top:2px!important;
+}
+
+.pdTop5{
+	padding-top:5px!important;
+}
+
+.pdTop10{
+	padding-top:10px!important;
+}
+
+.pdTop15{
+	padding-top:15px!important;
+}
+
+.pdTop20{
+	padding-top:20px!important;
+}
+
+.pdTop30{
+	padding-top:30px!important;
+}
+
+.pdTop50{
+	padding-top:50px!important;
+}
+
+/* 右 */
+.mgRight1{
+	margin-right:1px!important;
+}
+
+.mgRight2{
+	margin-right:2px!important;
+}
+
+.mgRight3{
+	margin-right:3px!important;
+}
+
+.mgRight5{
+	margin-right:5px!important;
+}
+
+.mgRight7{
+	margin-right:7px!important;
+}
+
+.mgRight10{
+	margin-right:10px!important;
+}
+
+.mgRight15{
+	margin-right:15px!important;
+}
+
+.mgRight20{
+	margin-right:20px!important;
+}
+
+.mgRight30{
+	margin-right:30px!important;
+}
+
+.pdRight1{
+	padding-right:1px!important;
+}
+
+.pdRight2{
+	padding-right:2px!important;
+}
+
+.pdRight5{
+	padding-right:5px!important;
+}
+
+.pdRight7{
+	padding-right:7px!important;
+}
+
+.pdRight10{
+	padding-right:10px!important;
+}
+
+.pdRight15{
+	padding-right:15px!important;
+}
+
+.pdRight20{
+	padding-right:20px!important;
+}
+
+.pdRight25{
+	padding-right:25px!important;
+}
+
+.pdRight30{
+	padding-right:30px!important;
+}
+
+.pdRight40{
+	padding-right:40px!important;
+}
+
+.pdRight50{
+	padding-right:50px!important;
+}
+.pdRight100{
+	padding-right:100px!important;
+}
+
+
+/* 左 */
+.mgLeft1{
+	margin-left:1px!important;
+}
+
+.mgLeft2{
+	margin-left:2px!important;
+}
+
+.mgLeft3{
+	margin-left:3px!important;
+}
+
+.mgLeft4{
+	margin-left:4px!important;
+}
+
+.mgLeft5{
+	margin-left:5px!important;
+}
+
+.mgLeft10{
+	margin-left:10px!important;
+}
+
+.mgLeft15{
+	margin-left:15px!important;
+}
+
+.mgLeft20{
+	margin-left:20px!important;
+}
+
+.mgLeft30{
+	margin-left:30px!important;
+}
+
+.mgLeft40{
+	margin-left:40px!important;
+}
+
+.mgLeft50{
+	margin-left:50px!important;
+}
+
+.mgLeft100{
+	margin-left:100px!important;
+}
+
+.pdLeft1{
+	padding-left:1px!important;
+}
+
+.pdLeft2{
+	padding-left:2px!important;
+}
+
+.pdLeft5{
+	padding-left:5px!important;
+}
+
+.pdLeft10{
+	padding-left:10px!important;
+}
+
+.pdLeft15{
+	padding-left:15px!important;
+}
+
+.pdLeft20{
+	padding-left:20px!important;
+}
+
+.pdLeft25{
+	padding-left:25px!important;
+}
+
+.pdLeft30{
+	padding-left:30px!important;
+}
+
+.pdLeft40{
+	padding-left:40px!important;
+}
+
+.pdLeft35{
+	padding-left:35px!important;
+}
+
+
+/* 下 */
+.mgBottom0{
+	margin-bottom:0!important;
+}
+
+.mgBottom1{
+	margin-bottom:1px!important;
+}
+
+.mgBottom2{
+	margin-bottom:2px!important;
+}
+
+.mgBottom5{
+	margin-bottom:5px!important;
+}
+
+.mgBottom10{
+	margin-bottom:10px!important;
+}
+
+.mgBottom15{
+	margin-bottom:15px!important;
+}
+
+.mgBottom20{
+	margin-bottom:20px!important;
+}
+
+.mgBottom30{
+	margin-bottom:30px!important;
+}
+
+.mgBottom50{
+	margin-bottom:50px!important;
+}
+
+.pdBottom1{
+	padding-bottom:1px!important;
+}
+
+.pdBottom2{
+	padding-bottom:2px!important;
+}
+
+.pdBottom5{
+	padding-bottom:5px!important;
+}
+
+.pdBottom10{
+	padding-bottom:10px!important;
+}
+
+.pdBottom15{
+	padding-bottom:15px!important;
+}
+
+.pdBottom20{
+	padding-bottom:20px!important;
+}
+
+.pdBottom20{
+	padding-bottom:30px!important;
+}
+
+.pdBottom30{
+	padding-bottom:30px!important;
+}
+
+
+/*フロート*/
+.floatRight{
+	float:right;
+	}
+.floatLeft{
+	float:left;
+	}
+.clear{
+	clear:both;
+	}
+	
+	
+/*色*/
+
+.color-music{
+	color:#CC0000;
+	}
+.color-creative{
+	color:#03C;
+	}
+.color-eco{
+	color:#090;
+	}
+.color-culinary{
+	color:#900;
+	}
+.color-pink{
+	color:#F36;
+	}
+.color-vividpink{
+	color:#F06;
+	}
+.color-orange{
+	color:#F60;
+	}
+.color-skyblue{
+	color:#09C;
+	}
+.color-navy{
+	color:#009;
+	}
+.color-purple{
+	color:#639;
+	}
+.color-gold{
+	color:#C90;
+	}
+.color-lightgreen{
+	color: #0C0;
+	}
+.color-red{
+	color:#F00;
+	}
+.color-blue{
+	color:#03F;
+	}
+.color-gray{
+	color:#666;
+	}
+.color-kimidori{
+	color:#693;
+	}
+.color-white{
+	color:#FFF;
+	}
+.color-yellow{
+	color:#FFCC00;
+	}
+.color-yamabuki{
+	color:#FF9900;
+	}
+.color-deeporange{
+	color:#FF3300;
+	}
+.color-peach{
+	color:#FF3399;
+	}
+.color-azuki{
+	color:#CC3333;
+	}
+.color-sax{
+	color:#3366FF;
+	}
+.color-deepblue{
+	color:#0000CC;
+	}
+.color-deepgreen{
+	color:#006666;
+	}
+
+	/*上付き小文字*/
+.super {
+	vertical-align: text-top;
+	font-size:0.8em;
+}
+
+
+/*フォントサイズ*/
+.font10{
+	font-size:10px;
+	}
+.font12{
+	font-size:12px;
+	}
+.font14{
+	font-size:14px;
+	}
+.font16{
+	font-size:16px;
+	}
+.font18{
+	font-size:18px;
+	}
+.font20{
+	font-size:20px;
+	}
+.font22{
+	font-size:22px;
+	}
+.fontBold{
+	font-weight:bold;
+	}
+.fontNomal{
+	font-weight:normal;
+	}
+
+
+/*右、左、センター寄せ*/
+.center {
+	text-align:center;
+	}
+
+.right {
+	text-align: right;
+}
+.left{
+	text-align:left;
+	}
+	
+/*1emインデント*/
+.emsign {
+	text-indent: -1em;
+	padding-left: 1em;
+	
+}
+	
+/*banner rollover end etc　ロールオーバー*/
+a:hover img.overBtn{
+ filter: alpha(opacity=70);
+    -moz-opacity:0.80;
+    opacity:0.80;
+}
+
+
+/*ライン*/
+hr.lineGlay{
+	color:#FFF;
+	width:100%;
+	height:1px;
+	margin:20px 0;
+	}
+	
+/*トップへ戻る*/
+.totop{
+	text-align:right;
+	margin:20px 10px;
+	}
+
+.normal{
+	font-weight:normal;
+	}
+
+/* General Classes
+------------------------- */
+.clearfix:after {
+	display: block;
+	visibility: hidden;
+	content: ".";
+	clear: both;
+	height: 0;
+	font-size: 0;
+	line-height: 0;
+}
+* html .clearfix {
+	zoom: 1;
+} /* IE6 */
+*:first-child+html .clearfix {
+	zoom: 1;
+} /* IE7 */
+
+/* リンクテキストにアンダーライン */
+.u_line {
+	text-decoration:underline;
+}
+
+/* PDFアイコン */
+.ico_pdf {background:url(../../common/img/ico_pdf.png) top right no-repeat; padding-right:20px; padding-bottom:2px;}

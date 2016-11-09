@@ -1,0 +1,1963 @@
+@charset "utf-8";
+/* top.css */
+/*--------------------------------------
+Main Image
+-------------------------------------*/
+#mainArea {
+	height:420px;
+	/*background:url(../../img/main/nav_bg.jpg) #000 repeat-x bottom left;*/
+	overflow:hidden;
+}
+
+#mainArea_nest {
+	position:relative;
+	margin: auto;
+	width : 960px;
+}
+
+#mainArea #mainArea_nest div.Event_pickup_wrap_fix  {
+	width: 260px;
+	height: 310px;
+	position: absolute;
+	top: 15px;
+	left: 640px;
+	background: url(../../img/main/bg_Event_pickup_wrap_fix.png) no-repeat center top;
+	padding: 20px 30px 40px 30px;
+}
+
+ul#output {
+	height:400px;
+	overflow:hidden;
+	position:relative;
+}
+ul#output li { height:400px;}
+ul#output li#main1 {	background: url(../../img/main/main01.jpg) no-repeat top center;}
+ul#output li#main2 {	background: url(../../img/main/main02.jpg) no-repeat top center;}
+ul#output li#main3 {	background: url(../../img/main/main03.jpg) no-repeat top center;}
+ul#output li#sub1 {	background: url(../../img/main/bg_concept.png) no-repeat top center;}
+ul#output li#sub2 {	background: url(../../img/main/bg_gakuensai.png) no-repeat top center;}
+ul#output li#sub3 {	background: #FFF8A3 url(../../img/main/bg_oshifes.png) no-repeat top center;}
+ul#output li#sub4 {	background: url(../../img/main/sub_event.jpg) no-repeat top center;}
+ul#output li#sub5 {	background: url(../../img/main/bg_hom.png) no-repeat bottom center #000000;}
+ul#output li#sub6 {	background: url(../../img/main/bg_music_dance.png) no-repeat top center #000;}
+ul#output li#sub7 {	background: url(../../img/main/bg_entry_ao.png) no-repeat bottom center #F4A411;}
+ul#output li#sub8 {
+	background-color: #a8d3e4;
+	background-image: url(../../img/main/bg_syutugan.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+ul#output li#Myschool_slider {	background: url(../../img/main/bg_myschool.png) repeat-x top center #FFF;}
+
+
+ul#output li h2 {
+	width:960px;
+	margin:0 auto;
+	position:relative;
+}
+ul#output li#main1 h2 img , ul#output li#main2 h2 img , ul#output li#main3 h2 img {
+	position:absolute;
+	top:25px;
+	right:0;
+}
+
+ul#output li#sub1 h2 img , ul#output li#sub2 h2 img , ul#output li#sub4 h2 img , ul#output li#sub5 h2 img , ul#output li#sub6 h2 img {
+	position:absolute;
+	top:80px;
+	left:0;
+}
+ul#output li#sub3 h2 img  {
+	position:absolute;
+	top:5px;
+	left:240px;
+}
+ul#output li p {
+	width:960px;
+	color:#CCC;
+	font-size:14px;
+	margin:0 auto;
+	position:relative;
+}
+ul#output li p span {
+	position:absolute;
+	top:250px;
+	left:5px;
+	width:425px;
+}
+ul#output li p span a {
+	font-size:16px;
+	color:#CCC;
+	text-decoration:underline;
+	background:url(../img/list_nav1.gif) no-repeat left 5px;
+	padding-left:15px;
+}
+ul#output li p span a:hover {
+	font-size:16px;
+	color:#C00;
+}
+ul#tabs {
+	width:960px;
+	margin:0 auto;
+}
+ul#tabs li {
+	height:85px;
+	float:left;
+}
+ul#tabs li.tab_btn {
+	width: 160px;
+	padding-top: 5px;
+}
+ul#tabs li.tab_btn a {
+	color:#FFF;
+	text-decoration: none;
+	margin-right: 10px;
+}
+ul#tabs li a {
+	display:block;
+	border-top:3px solid #CCC;	
+}
+
+div#feature_list ul#tabs li a.current {
+	border-top:3px solid #C00;	
+}
+.gnavi_u_box {
+height:60px!important;
+}
+ul.gnavi_u li.firstChild {
+	position: relative;
+}
+ul.gnavi_u li.firstChild span.icon_hot {
+	position: absolute;
+	top:9px;
+	left: 10px;
+}
+/*----------------------------weare追加*/
+/*ul li#sub6 {
+	background: url(../../img/main/bg_weare.jpg) repeat-y #000 top center;	
+}*/
+ul li#sub6 div {
+	margin: 0 auto;
+	position: relative;
+	width: 960px;
+	/*padding-top: 120px;*/
+}
+ul li#sub6 p {
+	width:156px;
+	float:left;
+}
+ul li#sub6 a {
+	height:264px;
+}
+/*ul li#sub6 p a:hover {
+	opacity:0.8;
+}*/
+/*ul li#sub6 a span {
+	display:block;
+	width:631px;
+	height:383px;
+	margin:0 auto 0;
+	padding-top:5px;
+}
+*//*----------------------------願書*/
+ul li#sub7 {
+}
+ul li#sub7 p.invation_days {
+	 top:177px;
+		left: 35px;
+		color:#CC0000;
+		font-size: 13px;
+}
+
+ul li#sub7 a span {
+	display:block;
+	width:631px;
+	height:383px;
+	margin:0 auto 0;
+	padding-top:5px;
+}
+/*----------------------------Myスクール*/
+ul li#Myschool_slider {
+}
+ul li#Myschool_slider div {
+	width: 960px;
+	position: relative;
+	margin: 0 auto;
+}
+ul li#Myschool_slider p.lesson_btn {
+	 top:100px;
+		left: 660px;
+		position: absolute;
+
+}
+
+/*----------------------------春の体験入学追加*/
+ul li#spring {
+	background-color: #FFF;
+	background-image: url(../../img/main/earlysummer_main_bg.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;
+
+}
+ul li#spring div {
+	display:block;
+	width:960px;
+	height:400px;
+	position:relative;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	left: 0px;
+}
+
+
+ul li#spring .spring_main_event  {
+	width: 630px;
+	height: 400px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+ul li#spring .spring_pic_up  {
+	width: 307px;
+	height: 89px;
+	position: absolute;
+	top: 0px;
+	left: 630px;
+}
+ul li#spring .spring_event1  {
+	width: 307px;
+	height: 115px;
+	position: absolute;
+	top: 42px;
+	left: 630px;
+}
+ul li#spring .spring_btn1  {
+	width: 307px;
+	height: 31px;
+	position: absolute;
+	top: 157px;
+	left: 630px;
+}
+ul li#spring .spring_btn2  {
+	width: 307px;
+	height: 31px;
+	position: absolute;
+	top: 324px;
+	left: 630px;
+}
+
+ul li#spring .spring_event2  {
+	width: 307px;
+	height: 136px;
+	position: absolute;
+	top: 188px;
+	left: 630px;
+}
+
+
+ul li#spring .spring_event3  {
+	width: 307px;
+	height: 249px;
+	position: absolute;
+	top: 89px;
+	left: 630px;
+}
+
+ul li#spring .spring_btn3  {
+	width: 307px;
+	height: 26px;
+	position: absolute;
+	top: 338px;
+	left: 630px;
+}
+
+
+
+ul li#spring .spring_event_footer  {
+	width: 307px;
+	height: 45px;
+	position: absolute;
+	top: 355px;
+	left: 630px;
+}
+
+ul li#spring .spring_event_footer2  {
+	width: 307px;
+	height: 47px;
+	position: absolute;
+	top: 373px;
+	left: 630px;
+}
+
+/*----------------------------職業体験*/
+ul li#Event_slider {
+	background-color: #FFF;
+	background-image: url(../../img/main/bg_event_main.png);
+	background-repeat: repeat-x;
+	background-position: center top;
+
+}
+ul li#Event_slider div {
+	display:block;
+	width:960px;
+	height:400px;
+	position:relative;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	left: 0px;
+}
+
+
+ul li#Event_slider .Event_slider_main  {
+	width:399px;
+	height:268px;
+	position: absolute;
+	top: 25px;
+	left: 0px;
+}
+ul li#Event_slider .Event_slider_main a img {
+	padding-bottom: 130px;
+}
+ul li#Event_slider .Event_ao  {
+	width:134px;
+	height:134px;
+	position: absolute;
+	top: 200px;
+	left: 415px;
+	z-index: 9999;
+}
+ul li#Event_slider .Event_pickup_wrap  {
+	width: 260px;
+	height: 320px;
+	position: absolute;
+	top: 0px;
+	left: 630px;
+	border-left: #FFF solid 2px;
+	border-right: #FFF solid 2px;
+	border-bottom: #FFF solid 2px;
+	background-color:#F5F5F5;
+	padding: 20px;
+}
+
+/*----------------------------Weare_Slider*/
+ul li#Weare_Slider {
+	background-color: #FFF;
+	background-image: url(../../img/main/bg_weare2014.png);
+	background-repeat: repeat-x;
+	background-position: center top;
+}
+ul li#Weare_Slider div {
+	position:relative;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	left: 0px;
+	width: 960px;
+	height: 400px;
+	
+}
+ul li#Weare_Slider p {
+	position: absolute;
+}
+ul li#Weare_Slider p a img {
+	padding: 150px 50px 50px 70px;
+}
+
+
+/*----------------------------新コース*/
+ul li#new_course_slide {
+	background-color: #F1F1F1;
+	background-image: url(../../img/main/bg_newcourse.png);
+	background-repeat: repeat-x;
+	background-position: center top;
+
+}
+ul li#new_course_slide div {
+	display:block;
+	background: url(../../img/main/bg_course_btn.png) no-repeat;
+	width:960px;
+	height:399px;
+	position:relative;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	left: 0px;
+}
+
+ul li#new_course_slide div p.slide_course_all {
+	float: left;
+	position: absolute;
+	top: 245px;
+	left:420px;
+}
+ul li#new_course_slide div p.slide_course_list {
+	position: absolute;
+	width: 600px;
+	top: 300px;
+	left:78px;
+}
+ul li#new_course_slide div p.slide_course_list a {
+	padding-top: 3px;
+	display: inline-block;
+}
+
+ul li#new_course_slide div p.tech_creator {
+	float: left;
+	position: absolute;
+	top: 200px;
+	left:241px;
+}
+ul li#new_course_slide div p.tech_recording {
+	float: left;
+	position: absolute;
+	top: 200px;
+	left:481px;
+}
+ul li#new_course_slide div p.tech_composer {
+	float: left;
+	position: absolute;
+	top: 200px;
+	left:721px;
+}
+
+
+/*----------------------------土屋アンナさん来校*/
+ul li#sp {
+	z-index:3;
+	background: url(../../img/main/bg_anna_tsuchiya.jpg) repeat-x #FD2693 top center;
+	text-align:center;
+}
+ul li#sp a {
+	display:block;
+	width:100%;
+	height:400px;
+	margin:0 auto;
+}
+ul li#sp:hover {
+	-ms-filter: "alpha( opacity=80 )";
+	filter: alpha( opacity=80 );
+	opacity: 0.8;
+}
+ul li#sp a div:hover {
+	cursor:pointer;
+}
+
+/*----------------------------GW体験入学追加*/
+ul li#gw {
+	z-index:3;
+	background: url(../../img/main/bg_gw.jpg) repeat-x #F6FE00 top center;
+	text-align:center;
+}
+ul li#gw a {
+	display:block;
+	width:100%;
+	height:400px;
+	margin:0 auto;
+}
+ul li#gw:hover {
+	-ms-filter: "alpha( opacity=80 )";
+	filter: alpha( opacity=80 );
+	opacity: 0.8;
+}
+ul li#gw a div:hover {
+	cursor:pointer;
+}
+/*----------------------------AO追加*/
+ul li#ao {
+	background: url(../../img/main/bg_ao.gif) repeat-x #D10000 top center;	
+	text-align:center;
+}
+ul li#ao a {
+	display:block;
+	width:100%;
+	height:400px;
+	margin:0 auto;
+}
+
+ul li#ao:hover {
+	background-image:none;
+	background-color:#D60100;
+}
+
+ul li#ao div a {
+	width:358px;
+	height:78px;
+	position:absolute;
+	top:75%;
+	left:50%;
+	margin-left:60px;
+}
+/*----------------------------AO2追加*/
+ul li#ao2 {
+	text-align:center;
+	background-image: url(../../img/main/bg_ao3.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;
+}
+ul li#ao2 a {
+	display:block;
+	width:100%;
+	height:400px;
+	margin:0 auto;
+}
+
+ul li#ao2:hover {
+	background: url(../../img/main/bg_ao2.jpg) repeat-x #D10000 top center;
+	text-align:center;
+}
+
+
+ul li#ao2 .ao2_btn a {
+	width:241px;
+	height:167px;
+	position:absolute;
+	top:25px;
+	left:64%;
+	margin-left:60px;
+}
+
+ul li#ao2 .ao3_btn a {
+	width:241px;
+	height:167px;
+	position:absolute;
+	top:210px;
+	left:64%;
+	margin-left:60px;
+}
+
+
+
+/*----------------------------学園祭追加*/
+ul li#gakusai {
+	z-index:3;
+	background: url(../../img/main/bg_gakusai.gif) repeat-x #FFF top center;
+	text-align:center;
+}
+ul li#gakusai a {
+	display:block;
+	width:100%;
+	height:400px;
+	margin:0 auto;
+}
+ul li#gakusai:hover {
+	-ms-filter: "alpha( opacity=80 )";
+	filter: alpha( opacity=80 );
+	opacity: 0.8;
+}
+ul li#gakusai a div:hover {
+	cursor:pointer;
+}
+/*----------------------------夏の体験入学*/
+ul li#summer {
+	z-index:3;
+	background: url(../../img/main/bg_summer.jpg) repeat-x #FFF top center;
+	text-align:center;
+}
+ul li#summer a {
+	display:block;
+	width:100%;
+	height:400px;
+	margin:0 auto;
+}
+ul li#summer:hover {
+	-ms-filter: "alpha( opacity=80 )";
+	filter: alpha( opacity=80 );
+	opacity: 0.8;
+}
+ul li#summer a div:hover {
+	cursor:pointer;
+}
+/*----------------------------9月のメイン*/
+/*
+div#feature_list ul#output li#bgTeacher {
+	background:url(../../image/main/main_bg_teacher.jpg) repeat center top;	
+}
+div#feature_list ul#output li#bgTeacher div {
+	display:block;
+	width:900px;
+	height:400px;
+	margin:0 auto;
+	position:relative;
+}
+
+
+ul li#september {
+	z-index:3;
+	text-align:center;
+	background-color: #FFF;
+	background-repeat: repeat-x;
+	background-position: center top;
+	margin-right: auto;
+	margin-left: auto;
+}
+ul li#september a {
+	display:block;
+	width:100%;
+	height:400px;
+	margin:0 auto;
+}
+*/
+
+
+ul li#september {
+	background-color: #FFF;
+	background-image: url(../../img/main/bg_sep.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;
+
+}
+ul li#september div {
+	display:block;
+	width:960px;
+	height:400px;
+	position:relative;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	left: 0px;
+}
+/*
+ul li#september:hover {
+	-ms-filter: "alpha( opacity=80 )";
+	filter: alpha( opacity=80 );
+	opacity: 0.8;
+}
+
+ul li#september a div:hover {
+	cursor:pointer;
+}
+*/
+
+ul li#september .ao9_1_btn  {
+	position:absolute;
+	margin-left:0px;
+}
+ul li#september .ao9_2_btn  {
+	width:241px;
+	height:167px;
+	position:absolute;
+	top:160px;
+	left:158px;
+}
+ul li#september .ao9_3_btn  {
+	width:241px;
+	height:167px;
+	position:absolute;
+	top:0px;
+	left:158px;
+}
+ul li#september .ao9_4_btn  {
+	width:241px;
+	height:167px;
+	position:absolute;
+	top:87px;
+	left:158px;
+}
+ul li#september .course  {
+	width:480px;
+	height:200px;
+	position:absolute;
+	top:0px;
+	left:480px;
+}
+ul li#september .lesson  {
+	width:480px;
+	height:200px;
+	position:absolute;
+	top:200px;
+	left:0px;
+}
+ul li#september .description  {
+	width:480px;
+	height:200px;
+	position:absolute;
+	top:200px;
+	left:480px;
+}
+ul li#september .my_school  {
+	width:480px;
+	height:200px;
+	position:absolute;
+	top:0px;
+	left:480px;
+}
+
+
+/*----------------------------秋の体験入学*/
+ul li#autumn {
+	background-color: #FFF;
+	background-image: url(../../img/main/winter.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;
+
+}
+ul li#autumn div {
+	display:block;
+	width:960px;
+	height:400px;
+	position:relative;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	left: 0px;
+}
+
+
+ul li#autumn .lesson  {
+	width: 480px;
+	height: 200px;
+	position: absolute;
+	top: 200px;
+	left: 480px;
+}
+ul li#autumn .my_school  {
+	width: 480px;
+	height: 200px;
+	position: absolute;
+	top: 0px;
+	left: 480px;
+}
+ul li#autumn .gansyo  {
+	width: 480px;
+	height: 400px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+}
+.btn_top   {
+	width: 260px;
+	height: 90px;
+	position: absolute;
+	top: 295px;
+	left: 185px;
+	z-index: 99;
+}
+
+/*----------------------------秋の体験入学2*/
+ul li#autumn2 {
+	background-color: #FFF;
+	background-image: url(../../img/main/winter.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;
+
+}
+ul li#autumn2 div {
+	display:block;
+	width:960px;
+	height:400px;
+	position:relative;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	left: 0px;
+}
+
+
+ul li#autumn2 .lesson  {
+	width:480px;
+	height:200px;
+	position:absolute;
+	top:200px;
+	left:0px;
+}
+ul li#autumn2 .my_school  {
+	width:480px;
+	height:200px;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+ul li#autumn2 .course  {
+	width:480px;
+	height:200px;
+	position:absolute;
+	top:0px;
+	left:480px;
+}
+ul li#autumn2 .special  {
+	width:480px;
+	height:200px;
+	position:absolute;
+	top:200px;
+	left:480px;
+}
+
+#headerArea {
+	/*height:174px;*/
+	height:127px;
+}
+/*--------------------------------------
+Information
+-------------------------------------*/
+#infoArea {
+	margin:20px auto;
+/*	border-top:1px solid #DDD;
+	border-bottom:1px solid #DDD;*/
+	padding:10px 0 15px 0;
+	position:relative;
+	background:url(../../img/bg_info.jpg) no-repeat left top;
+}
+#infoArea h3 {
+	float:left;
+	width:130px;
+	text-align:center;
+}
+#infoArea ul {
+	float:left;
+	width:800px;
+	font-size:16px;
+/*	background: url(../../img/info_line.gif) repeat-y left top  ;*/
+	padding: 2px 0 5px 160px; 
+}
+#infoArea ul li a {
+	/*background:url(../img/list_nav1.gif) no-repeat left 3px;*/
+	padding-left:15px;
+}
+#infoArea .info_youtube {
+	position: absolute;
+	left:-95px;
+	top:0;
+}
+/*--------------------------------------
+PICK UP
+-------------------------------------*/
+#top_pickup_box{
+	position: relative;
+	overflow: hidden;
+	/*margin:20px auto;*/
+	margin:0 auto 20px;
+	background:url(../img/renew/pickup_bg.png) repeat-x left top;
+}
+#top_pickup_box ul {
+	position: relative;
+	left: 50%;
+	float: left;
+	padding: 30px 0;
+}
+#top_pickup_box li{
+	position: relative;
+	left: -50%;
+	float: left;
+	width: 230px;
+	float: left;
+	margin-right: 10px;
+	box-shadow: 2px 2px 6px #999;
+	-webkit-box-shadow: 2px 2px 6px #999;
+	-moz-box-shadow: 2px 2px 6px #999;
+	background:#FFF;
+}
+#top_pickup_box li.lastChild {
+	margin-right: 0;
+}
+
+/*--------------------------------------
+SNS
+-------------------------------------*/
+#top_sns_box{
+}
+#top_sns_box h3{
+	margin-bottom: 10px;
+}
+#top_sns_box h4{
+	margin-bottom: 0;
+}
+#top_sns_box .#sns_link_box ul {
+	padding: 15px 0;
+}
+#top_sns_box #sns_left_box {
+	width: 450px;
+	float: left;
+	overflow: hidden;
+}
+#top_sns_box #sns_left_box h4 {
+	position: relative;
+}
+#top_sns_box #sns_left_box h4 .btn_moreyoutube {
+	position: absolute;
+	right: 10px;
+	top: 8px;
+	background-color: #fff;
+}
+#top_sns_box #sns_left_box h4 a.btn_moreyoutube:hover {
+	background-color: #EA9D9B;
+}
+#top_sns_box #sns_left_box h4 .ico_student_movie{
+	position: absolute;
+	right: 205px;
+	top: 8px;
+}
+/*#top_sns_box #sns_link_box{
+	width: 170px;
+	height: 310px;
+	float: left;
+	border: solid 1px #000;
+	margin-left: 10px;
+	background: #EFEFEF;
+}
+#top_sns_box #sns_link_box ul{
+	margin: 0 0 0 10px;
+}
+#top_sns_box #sns_link_box li{
+	width: 150px;
+	float: left;
+	margin-top: 6px;
+}*/
+#top_sns_box #sns_link_box{
+	width: 960px;
+	float: left;
+	border: solid 1px #000;
+	clear: both;
+	margin-top: 10px;
+	background: #EFEFEF;
+}
+#top_sns_box #sns_link_box h4{
+	width: 255px;
+	float: left;
+}
+#top_sns_box #sns_link_box li{
+	width: 150px;
+	float: left;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+#top_sns_box #sns_link_box li.lastChild {
+	margin-top: 10px;
+}
+
+/*#top_sns_box #sns_link_box li.lastChild {
+	margin-right: 0;
+}*/
+
+/*#top_sns_box #sns_facebook {
+	width: 230px;
+	height: 405px;
+	float: left;
+	border: solid 1px #000;
+	margin-left: 10px;
+}*/
+#top_sns_box #sns_twitter {
+	width: 240px;
+	height: 300px;
+	border: solid 1px #000;
+	float: left;
+	margin-left: 7px;
+	overflow: hidden;
+}
+#top_sns_box #sns_twitter h4 {
+	margin-bottom: 0;
+}
+#top_sns_box #sns_radio {
+	width: 250px;
+	height: 300px;
+	border: solid 1px #000;
+	float: left;
+	margin-left: 7px;
+	overflow: hidden;
+	background: #333;
+	color: #FFF;
+}
+#top_sns_box #sns_radio p {
+	text-align: center;
+}
+#top_sns_box #sns_radio .sns_radio_explain {
+	line-height: 140%;
+	margin: 3px 0;
+}
+#top_sns_box #sns_radio .btn_moreradio a {
+	background: #FFF;
+	display: inline-block;
+}
+#top_sns_box #sns_radio .btn_moreradio a {
+	background: #FFF;
+}
+#top_sns_box #sns_radio .btn_moreradio a:hover {
+	background-color: #EA9D9B;
+}
+#top_sns_box #sns_radio h4 {
+	margin-bottom: 0;
+}
+/*--------------------------------------
+開校バナーエリア
+-------------------------------------*/
+#open_school_banner {
+	margin-top: 10px;
+	position: relative;
+}
+#open_school_banner .promotion_banner {
+	width: 420px;
+	position: absolute;
+	top: 240px;
+	right: 10px;
+}
+#open_school_banner ul.promotion_banner li {
+	width: 200px;
+	float: left;
+	margin-left: 10px;
+}
+/*--------------------------------------
+AOエントリーの注意点
+-------------------------------------*/
+#AO_Note {
+	margin-top: 20px;
+	border: solid #FF0000 1px;
+	padding: 15px;
+}
+#AO_Note h3 {
+	font-size:18px;
+	color: #F00;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+/*--------------------------------------
+Main
+-------------------------------------*/
+.mainLeft {
+	width:720px;
+	float:left;
+	/*padding-right:20px;
+	background:url(img/info_line.gif) repeat-y top right ;*/
+}
+
+.mainLeft h3 {
+	position:relative;
+	margin:30px 0 10px;
+}
+#courseArea h3 {	margin-top:0;}
+.mainLeft h3 a {
+	position:absolute;
+	top:15px;
+	right:20px;
+}
+/*------------------USER NAV*/
+#userNav {
+	/*background-color:#EBEBEB;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;*/
+	border:#A9BBC9 solid 1px;
+	margin-bottom:40px;
+	padding-top:15px;
+}
+#userNav h3 {
+	margin:0 10px 10px 10px;
+	font-size:14px;
+	border-bottom: #CCC solid 1px;
+}
+#userNav h3 img {
+	float:left;
+	/*width:307px;*/
+	margin:0 10px 0 0;
+}
+#userNav h3 span {
+	float:left;
+	margin:8px 0 0 10px;
+	/*width:380px;*/
+}
+.userNavBox {
+	background-color:#FFF;
+	float:left;
+	width:164px;
+	margin-bottom:15px;
+		-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border-bottom:#A9BBC9 solid 1px;
+	border-left:#A9BBC9 solid 1px;
+	border-right:#A9BBC9 solid 1px;
+	/*padding:5px;*/
+	margin:0 0 8px 11px;
+}
+.userNavBox ul {
+	padding: 0 5px 5px 5px;
+
+}
+
+#userNav h4 {
+	margin-bottom:5px;
+}
+
+
+
+#userNav li a {
+	background:url(../img/list_nav1.gif) no-repeat 7px 7px;
+	padding:2px 2px 2px 20px;
+	display:block;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border:1px solid #FFF;
+	zoom: 1;
+}
+#userNav li a:hover {	text-decoration:none;}
+#userNav p {
+	margin-bottom:5px;
+}
+#userNav ul.highschool li a { color:#DB2F7B; }
+#userNav ul.highschool li a:hover {	border:1px solid #DB2F7B;}
+#userNav ul.highschool2 li a { color:#FF6600;}
+#userNav ul.highschool2 li a:hover {	border:1px solid #FF6600;}
+#userNav ul.abroad li a { color:#009900;}
+#userNav ul.abroad li a:hover {	border:1px solid #009900;}
+#userNav ul.parent li a { color:#10719E;}
+#userNav ul.parent li a:hover {	border:1px solid #10719E;}
+#movieArea a.slideLink {
+	text-align:center;
+}
+
+/*-------------------------コース紹介*/
+#courseArea {
+	width:720px;
+}
+.courseList {
+	white-space:720px;
+	margin-right:-12px;
+	overflow:hidden;
+	_zoom:1;
+}
+.courseBox {
+	width:170px;
+	float:left;
+	margin:0 13px 0 0;
+}
+.courseBox h4 {
+	margin-bottom:5px;
+}
+.courseBox ul {
+	margin-top:5px;
+	padding:0 2px;
+}
+.courseBox li {
+	font-size:12px;
+	background:url(../img/list_nav2.gif) no-repeat left 3px;
+	padding-left:15px;
+	margin-bottom:5px;
+}
+/*-------------------------イベント情報*/
+#eventArea {
+	width:720px;
+}
+#eventArea h3 {	margin-bottom:3px;	}
+.eventList {
+	width:735px;
+	margin-right: -15px;
+	overflow: hidden;
+	_zoom: 1;
+}
+.eventBox {
+	width:220px;
+	float:left;
+	margin-right:15px;
+	cursor: pointer;
+	padding:5px 5px 10px;
+	_width:230px;
+	_padding:5px 0px 10px;
+}
+.eventBox:hover {	
+	background-color:#EEE;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.eventBox:hover .detail a {
+	text-decoration: underline;
+}
+.eventBox .detail img.linkIcon {
+	margin-left:5px;
+	
+}
+.eventBox img {	margin-left:-5px;}
+
+.eventBox h4 {
+	font-size:16px;
+	font-weight:bold;
+	background:url(../../img/event_list.png) no-repeat left 7px;
+	padding-left:20px;
+	margin-bottom:0px;
+	color:#C00;
+}
+.eventBox p.eventData {
+	font-weight:bold;
+	font-size:14px;	
+}
+.eventBox p.eventData span {
+	font-weight: normal;
+	font-size:12px;
+	color:#C00;
+	margin-right:5px;
+}
+.eventBox p.eventDetail {
+	margin:5px 0 10px;
+	font-size:12px;
+}
+.eventBox p.eventDetail span {
+	font-weight:bold;
+	color:#C00;
+}
+
+/*-------------------------PICKUP*/
+#pickupArea {
+	width:720px;
+	padding:15px 0 13px;
+	background-color:#EBEBEB;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	margin-top:20px;
+}
+#pickupArea h3 {
+	margin:0 0 20px 20px;
+	font-size:16px;
+}
+#pickupArea h3 img {
+	float:left;
+	margin:5px 10px 0 0;
+}
+.pickupBox {
+	float:left;
+	margin-left:13px;
+	width:340px;	
+}
+.pickupBox h4 {
+	margin-bottom:10px;
+}
+.pickupBox .movieList {
+	width:355px;
+	margin-right: -15px;
+	overflow: hidden;
+	_zoom: 1;
+}
+.pickupBox .movieList ul li {
+	width:110px;
+	float:left;
+	margin:0 5px 10px 0;
+}
+a.slideLink {
+	display:block;
+	margin:0;
+	font-size:14px;
+}
+a.slideLink img.hotnewsPH {
+	margin-right:10px;
+	display:block;
+	float:left;
+}
+a.slideLink img:hover {
+	text-decoration:none;
+}
+/*Slide*/
+.pickupBox .bx-pager {
+	position:absolute;
+	top:185px;
+	left:55px;
+	text-align:center;
+	display:block;
+}
+.pickupBox .bx-pager a {
+	width:16px;
+	height:16px;
+	overflow:hidden;
+	background:url(../../img/bullets.jpg) no-repeat left top;
+	float:left;
+	display:block;
+	text-indent:-9999px;
+	margin-right:4px;
+}
+.pickupBox .bx-pager a:hover , .pickupBox  .bx-pager a.pager-active  {
+	background:url(../../img/bullets.jpg) no-repeat right top;	
+}
+.pickupBox .bx-prev {
+	background:url(../../img/arrows.gif) top left no-repeat;
+	width:10px;
+	height:11px;
+	position:absolute;
+	top:187px;
+	left:5px;
+	text-indent:-9999px;
+	
+}
+.pickupBox .bx-next {
+	background:url(../../img/arrows.gif) top right no-repeat;
+	width:10px;
+	height:11px;
+	position:absolute;
+	top:187px;
+	left:165px;
+	text-indent:-9999px;
+}
+/*-------------------------県別説明会*/
+.explanationBox .guidance_link {
+	float: right;
+	width: 355px;
+	margin-top:10px;
+}
+.explanationBox .guidance_link ul li {
+	float: left;
+	display: block;
+	margin-right:15px;
+	margin-bottom:5px;
+}
+.explanationBox .guidance_link ul li a {
+	background:url(../img/list_nav2.gif) no-repeat left top;
+	padding-left:15px;
+}
+
+.explanationBox h5 {
+	font-size: 17px;
+	font-weight: bold;
+	color: #C00;
+}
+
+/*------------------Relation*/
+#relation h3 {
+	margin-bottom:20px;
+}
+/*--------------------------------------
+Side
+-------------------------------------*/
+.sideRight {
+	width:200px;
+	float:right;
+	padding-left:20px;
+	background:url(../../img/info_line.gif) repeat-y top left
+
+}
+
+/*-------------------------バナー*/
+.bnrArea {
+	margin-bottom:40px;
+	
+}
+.bnrArea .bx-pager {
+	position:absolute;
+	top:220px;
+	left:80px;
+	text-align:center;
+	display:block;
+	padding-left: 0px;
+}
+.bnrArea .bx-pager a {
+	width:16px;
+	height:16px;
+	overflow:hidden;
+	background:url(../../img/bullets.png) no-repeat left top;
+	float:left;
+	display:block;
+	text-indent:-9999px;
+	margin-right:4px;
+}
+.bnrArea .bx-pager a:hover , .bnrArea  .bx-pager a.pager-active  {
+	background:url(../../img/bullets.png) no-repeat right top;	
+}
+.bnrArea .bx-prev {
+	background:url(../../img/arrows.png) top left no-repeat;
+	width:10px;
+	height:11px;
+	position:absolute;
+	top:223px;
+	left:5px;
+	text-indent:-9999px;
+	
+}
+.bnrArea .bx-next {
+	background:url(../../img/arrows.png) top right no-repeat;
+	width:10px;
+	height:11px;
+	position:absolute;
+	top:223px;
+	left:185px;
+	text-indent:-9999px;
+}
+
+/*-------------------------更新情報*/
+#newsArea {
+	width:475px;
+	margin-bottom: 30px;
+	float: left;
+}
+#newsArea h3 {
+	margin-top:0;	
+}
+
+.newsBox ul {
+	/*width:200px;*/
+	height:190px;
+	margin:0;
+	overflow:auto;
+	overflow-x:hidden;
+	border-top:1px dotted #BBB;
+	border-bottom:1px solid #BBB;
+}
+.newsBox li {
+	/*width:200px;*/
+	border-bottom:1px dotted #BBB;
+	display:block;
+	line-height:1.6;
+	margin:0;
+}
+
+.newsBox li a {
+	background: url(../img/list_nav1.gif) no-repeat 10px 10px;
+	padding:5px 20px 5px 25px;
+	display:block;
+	text-decoration:none;
+	font-size:12px;
+	zoom: 1;
+}
+.newsBox li span {
+	font-size:10px;
+	color:#555;
+	text-decoration:none;
+	margin-right:10px;
+	display:block;
+}
+.newsBox li.end {
+	background: url(../img/list_nav1.gif) no-repeat 10px 12px;
+	padding:5px 20px 5px 25px;
+	display:block;
+	text-decoration:none;
+	font-size:12px;
+	margin:0;
+	color:#666;
+	width:145px;
+}
+.newsBox li a:link , .newsBox li a:visited {
+	color: #C00;
+	text-decoration: underline;
+	text-decoration: none;
+}
+.newsBox li a:hover {
+	color: #000;
+	text-decoration: none;
+	background-color:#EEE;
+}
+
+
+	/*TOPIC news*/
+#bnrArea_wrap {
+	width: 475px;
+	float: left;
+
+	margin: 0 0 0 10px;
+	/*background:url(../../img/renew/bg_hotnews.jpg) left top no-repeat;*/
+}
+
+#bnrArea_wrap h3 {
+	text-align: center;
+	width: 420px;
+}
+
+.bnrArea {
+	padding: 0 auto 40px auto;
+	width: 210px;
+}
+.bg_img3 {
+	margin: 20px 0 0 30px;
+}
+.bnrArea li a img {
+	/*margin-left: 10px;*/
+}
+#bnrArea_wrap .bx-pager {
+	position:absolute;
+	top:220px;
+	left:80px;
+	text-align:center;
+	display:block;
+	padding-left: 0px;
+}
+#bnrArea_wrap .bx-prev {
+	background:url(../../img/arrows.png) top left no-repeat;
+	width:20px;
+	height:42px;
+	position:absolute;
+	top:65px;
+	left:-25px;
+	text-indent:-9999px;
+	
+}
+#bnrArea_wrap .bx-next {
+	background:url(../../img/arrows.png) top right no-repeat;
+	width:20px;
+	height:42px;
+	position:absolute;
+	top:65px;
+	left:415px;
+	text-indent:-9999px;
+}
+
+/*------------------BLOG*/
+#blogArea {
+	margin-bottom:30px;
+	padding:10px 0;
+	width:200px;
+	background-color:#fff;
+	/*-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;*/
+	border:#A9BBC9 solid 1px;
+}
+#blogArea h3 {
+	font-size:14px;
+	margin:0;
+}
+#blogArea h3 img {
+	display:block;
+	margin-bottom:5px;
+}
+#blogArea h4 {
+	margin:20px 0 5px;	
+}
+
+.blogBox iframe {
+	width:190px;
+	height:150px;
+	margin:5px 5px 0 5px;
+	overflow-x:hidden;
+	border-top:1px dotted #BBB;
+	border-bottom:1px solid #BBB;
+	background-color: #EBEBEB;
+}
+
+/*------------------MYSCHOOL*/
+#myschoolArea {
+	margin-top:30px;
+	width:190px;
+	background-color:#EBEBEB;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	margin-bottom: 30px;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+}
+#myschoolArea h3 {
+	font-size:14px;
+	margin:0 0 0 5px;
+}
+#myschoolArea h3 img {
+	display:block;
+	margin-bottom:5px;
+}
+
+/*------------------USER NAV*/
+/*#userNav h4 {
+	margin-bottom:10px;
+}
+#userNav ul {
+	margin-bottom:15px;
+}
+
+#userNav li a {
+	background:url(../img/list_nav1.gif) no-repeat 7px 7px;
+	padding:2px 2px 2px 20px;
+	display:block;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border:1px solid #FFF;
+	zoom: 1;
+}
+#userNav li a:hover {	text-decoration:none;}
+#userNav p {
+	margin-bottom:5px;
+}
+#userNav ul.highschool li a { color:#DB2F7B; }
+#userNav ul.highschool li a:hover {	border:1px solid #DB2F7B;}
+#userNav ul.parent li a { color:#FF6600;}
+#userNav ul.parent li a:hover {	border:1px solid #FF6600;}
+#userNav ul.abroad li a { color:#009900;}
+#userNav ul.abroad li a:hover {	border:1px solid #009900;}
+#userNav ul.graduate li a { color:#10719E;}
+#userNav ul.graduate li a:hover {	border:1px solid #10719E;}
+#movieArea a.slideLink {
+	text-align:center;
+}*/
+
+/*------------------Movie・Hotnews*/
+
+/*a.slideLink {
+	display:block;
+	margin:0 0 10px;
+}
+a.slideLink img {
+	margin-bottom:5px;
+	display:block;
+}
+a.slideLink img.linkIcon {
+	display:inline;
+	margin-bottom:0px;
+}
+a.slideLink img:hover {
+	text-decoration:none;
+}*/
+
+
+
+/*Slide*/
+/*.bx-wrapper {
+	padding-top:35px;
+}
+.bx-pager {
+	position:absolute;
+	top:10px;
+	left:0;
+	text-align:center;
+	display:block;	
+}
+.bx-pager a {
+	width:16px;
+	height:16px;
+	overflow:hidden;
+	background:url(../../img/bullets.jpg) no-repeat left top;
+	float:left;
+	display:block;
+	text-indent:-9999px;
+	margin-right:4px;
+}
+.bx-pager a:hover , .bx-pager a.pager-active  {
+	background:url(../../img/bullets.jpg) no-repeat right top;	
+}
+.bx-prev {
+	background:url(../../img/arrows.gif) top left no-repeat;
+	width:10px;
+	height:11px;
+	position:absolute;
+	top:12px;
+	left:0;
+	text-indent:-9999px;
+	
+}
+.bx-next {
+	background:url(../../img/arrows.gif) top right no-repeat;
+	width:10px;
+	height:11px;
+	position:absolute;
+	top:12px;
+	right:0;
+	text-indent:-9999px;
+}
+#movieArea .bx-pager {	margin:0 0 0 50px;}
+#hotnews .bx-pager {margin:0 0 0 70px;}*/
+
+/*--------------------------------------
+Bottom
+-------------------------------------*/
+.infoBottom {
+	clear:both;
+	margin-top:40px;
+	/margin-top: 0px;
+	font-size:16px;
+}
+.infoBottom p {
+	margin:10px 20px 0 ;
+	line-height:1.8;
+}
+.infoBottom ul {
+	margin:10px 20px 0 ;
+	line-height:1.8;
+}
+.infoBottom ul a {
+	background:url(../img/list_nav2.gif) no-repeat left 2px;
+	padding-left:18px;
+}
+/*--------------------------------------
+ダイレクトフォーム
+-------------------------------------*/
+/*
+input {
+	font-weight: bold;
+	color: #F90000;
+	margin-top: 10px;
+	margin-left: 5px;
+	font-size: 16px;
+	text-align: center;
+	margin-bottom: 15px;
+	color: #faddde;
+	border: solid 1px #980c10;
+	background: #d81b21;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ed1c24), to(#aa1317));
+	background: -moz-linear-gradient(top,  #ed1c24,  #aa1317);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ed1c24', endColorstr='#aa1317');
+	padding: 8px 10px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+ 
+}
+.direct_form form select {
+	width: 180px;
+	margin-left: 5px;
+	font-size: 13px;
+	border: 1px solid #CACACA;
+}
+
+.direct_form form input:hover {
+	background: #b61318;
+	background: -webkit-gradient(linear, left top, left bottom, from(#c9151b), to(#a11115));
+	background: -moz-linear-gradient(top,  #c9151b,  #a11115);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#c9151b', endColorstr='#a11115');
+}
+.direct_form form input:active {
+	color: #de898c;
+	background: -webkit-gradient(linear, left top, left bottom, from(#aa1317), to(#ed1c24));
+	background: -moz-linear-gradient(top,  #aa1317,  #ed1c24);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#aa1317', endColorstr='#ed1c24');
+}
+*/
+
+input {
+	font-weight: bold;
+	color: #F90000;
+	margin-top: 0px;
+	margin-left: 5px;
+	text-align: center;
+	margin-bottom: 0px;
+	color: #faddde;
+	padding: 8px 10px;
+}
+.direct_form form select {
+	width: 180px;
+	margin-left: 5px;
+	font-size: 13px;
+	border: 1px solid #CACACA;
+}
+
+
+
+
+#direct_form h3 {
+	font-size: 12px;
+	line-height: 18px;
+	padding-left: 4px;
+	padding-top: 3px;
+}
+
+
+.direct_form {
+	width: 190px;
+	background-repeat: no-repeat;
+	margin-bottom: 0px;
+	margin-top: 10px;
+}
+#direct_form {
+	width:190px;
+	background-color:#EBEBEB;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	margin-bottom: 20px;
+}
+.tsm_shibuya_more {
+	border: 5px double #DFDFDF;
+	margin-top: 40px;
+}
+.tsm_shibuya_more p {
+	margin-top: 10px;
+	margin-right: 15px;
+	margin-bottom: 10px;
+	margin-left: 15px;
+}
+.contact_us {
+	text-align: center;
+	border: 5px solid #FF8080;
+}
+.contact_us p {
+	margin: 10px 7px;
+}
+
+/**********************************
+20130826 TOPリニューアル
+***********************************/
+
+#courseArea2 {
+	background: url(../../img/renew/bg_course.jpg) no-repeat 93% center;
+}
+#courseArea2 h3,
+#eventArea2 h3 {
+	position: relative;
+	
+}
+#courseArea2 h3 a,
+#eventArea2 h3 a {
+	position: absolute;
+	top: 15px;
+	right: 20px;
+
+}
+#courseArea2 h4 {
+	background: url(../../img/renew/subttl_course.jpg) repeat-x left top;
+	border: #CCC solid 1px;
+	padding: 5px 10px;
+	line-height: 1.0;
+	font-size: 1.4em;
+	margin: 15px 0 10px 0;
+	font-family: 'ヒラギノ角ゴ Pro W6','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+
+#courseArea2 dl {
+	width: 184px;
+	float: left;
+	padding-right: 10px;
+}
+
+#courseArea2 dl.course_dance_pro {
+	width: 572px;
+}
+#courseArea2 dl.course_dance_pro ul {
+	width: 184px;
+	float: left;
+}
+
+
+#courseArea2 dl dt h5 {
+		font-size: 1.4em;
+		font-weight: bold;
+		padding-left: 3px;
+		border-left: #CA0000 5px solid;
+		line-height: 1.3;
+		font-family: 'ヒラギノ角ゴ Pro W6','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+#courseArea2 dl dt h5.h5_14pt {
+		font-size: 14px;
+		font-weight: bold;
+		padding: 3px 0 3px 3px;
+		border-left: #CA0000 5px solid;
+		line-height: 1.3;
+		letter-spacing: -1px;
+}
+#courseArea2 dl dt h5.h5_long {
+		padding: 10px 0 10px 3px;
+}
+#courseArea2 dl dt img {
+	padding-bottom: 5px;
+}
+
+#courseArea2 dl dd {
+	padding-top: 5px;
+}
+
+#courseArea2 dl dd li {
+	background: url(../../img/renew/arrow_course.png) left 3px no-repeat;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	line-height: 1.2;
+}
+
+#courseArea2 div.c_promusician:after,
+#courseArea2 div.c_danve_actor:after {
+    content: ".";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}
+
+#courseArea2 div.c_promusician,
+#courseArea2 div.c_danve_actor {
+		display: inline-block;
+}
+
+#courseArea2 div.c_m_tec {
+	width: 184px;
+	float: left;
+	padding-right: 10px;
+}
+#courseArea2 div.c_m_commercialmusic {
+	width: 378px;
+	float: left;
+}
+
+#eventArea2 {
+	margin-top:30px;
+}
+#eventArea2 .eventBox {
+	margin-right:10px;
+}
+
+#courseArea2 dl.last,
+#eventArea2 .eventList .last {
+	padding-right: 0px;
+	margin-right: 0px;
+}
+
+#Newsletter {
+	margin-top: 30px;
+}
+
+/*BLOG*/
+#Newsletter #blogArea {
+	width: 300px;
+	float: left;
+	margin-right: 30px;
+	padding-top: 0;
+	background-color: #E8E7E3;
+	border: #D6D6D6 solid 1px;
+}
+	
+#Newsletter #blogArea	.blogBox iframe {
+	width:280px;
+	height:132px;
+	margin:5px 10px 0 10px;
+	overflow-x:hidden;
+	border-top:1px dotted #BBB;
+	border-bottom:1px solid #BBB;
+	background-color: #FFF;
+}
+
+/*NEWS*/
+#Newsletter #newsArea {
+	float: left;
+	width: 300px;
+	margin-right: 25px;
+	padding-top: 0;
+	background-color: #E8E7E3;
+	border: #D6D6D6 solid 1px;
+}
+
+#Newsletter #newsArea .newsBox ul {
+    border-bottom: 1px solid #BBBBBB;
+    border-top: 1px dotted #BBBBBB;
+    height: 174px;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 280px;
+				margin: 10px ;
+}
+#Newsletter #newsArea .newsBox li {
+				background-color:#FFF;
+    width: 280px;
+}
+	
+
+
+/*RELATION*/
+#relation2 h3 {
+	margin-bottom: 30px;
+}
+
+/*学校情報 NSMとは*/
+#nsm_merit2 {
+	margin-top: 30px;
+}
+#nsm_merit2 h3 {
+	margin-bottom: 20px;
+}
+#nsm_merit2 p {
+	font-size:10px;
+}

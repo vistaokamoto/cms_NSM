@@ -1,0 +1,894 @@
+@charset "UTF-8";
+@media screen and (min-width: 641px) {
+  /* ################# PC Header ################# */
+  .spHeader {
+    display: none;
+  }
+  .pcHeader {
+    display: block;
+    /*201308リニューアル*/
+  }
+  .pcHeader a {
+    color: #CA0000;
+    text-decoration: none;
+    outline: none;
+  }
+  .pcHeader a:hover {
+    color: #333;
+    text-decoration: underline;
+  }
+  .pcHeader img {
+    vertical-align: bottom;
+  }
+  .pcHeader .clearfix:after {
+    display: block;
+    clear: both;
+    content: "";
+  }
+  .pcHeader #headerArea {
+    background: #FFF;
+    height: 208px;
+    border-bottom: none;
+    background: url(http://www.nsm.ac.jp/common/img/renew/bg_header.png) repeat-x left top;
+    position: relative;
+    z-index: 499;
+  }
+  .pcHeader #header {
+    height: 128px;
+    width: 960px;
+    margin: 0 auto;
+    clear: both;
+    position: relative;
+  }
+  .pcHeader #headerArea .h1_area {
+    margin: 0;
+    padding: 15px 0 0;
+    z-index: 1;
+    font-weight: normal !important;
+  }
+  .pcHeader #headerArea .h1_area h1 {
+    font-weight: normal !important;
+    color: #fff;
+    width: 650px;
+  }
+  .pcHeader #headerArea div.head_logo {
+    width: 400px;
+    float: left;
+    clear: both;
+  }
+  .pcHeader #headerArea .head_logo a {
+    width: 400px;
+    display: block;
+    margin: 23px 0 0;
+  }
+  .pcHeader ul.headerBtn {
+    width: 428px;
+    float: right;
+  }
+  .pcHeader ul.headerBtn li {
+    float: left;
+    margin-left: 8px;
+    width: 100px;
+    display: block;
+    text-align: center;
+    background-color: #FFFFFF;
+  }
+  .pcHeader ul.headerBtn li:first-child {
+    margin-left: 0;
+  }
+  .pcHeader ul.headerBtn li a:hover img {
+    opacity: 0.7;
+  }
+  .pcHeader ul.headerBtn li a img {
+    -webkit-transition: opacity 0.2s ease-out;
+    transition: opacity 0.2s ease-out;
+  }
+  .pcHeader ul.gnavi {
+    width: 960px;
+    position: absolute;
+    top: 105px;
+    right: 0;
+    overflow: hidden;
+    z-index: 9999;
+  }
+  .pcHeader ul.gnavi li {
+    float: left;
+  }
+  .pcHeader ul.gnavi li a {
+    display: block;
+  }
+  .pcHeader .gnavi_u_box {
+    background: url(http://www.nsm.ac.jp/common/img/renew/bg_u_navi.png) repeat-x left top;
+    height: 35px;
+    /*height:60px;*/
+    z-index: 500;
+  }
+  .pcHeader ul.gnavi_u {
+    width: 960px;
+    height: 60px;
+    /*overflow:hidden;*/
+    z-index: 9999;
+    margin: 0 auto;
+  }
+  .pcHeader ul.gnavi_u li {
+    float: left;
+  }
+  .pcHeader ul.gnavi_u li a {
+    display: block;
+  }
+  .pcHeader ul.gnavi_u li.firstChild,
+  .pcHeader
+ul.gnavi_u li:first-child {
+    position: relative;
+  }
+  .pcHeader ul.gnavi_u li.firstChild span.icon_hot,
+  .pcHeader
+ul.gnavi_u li:first-child span.icon_hot {
+    position: absolute;
+    top: -5px;
+    left: 12px;
+  }
+  .pcHeader .gnavi_l_box {
+    /*margin-top: 4px;*/
+    z-index: 500;
+    box-shadow: 0px 5px 3px -3px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0px 5px 3px -3px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0px 5px 3px -3px rgba(0, 0, 0, 0.6);
+    background-color: #F5F5F5;
+    height: 45px;
+  }
+  .pcHeader ul.gnavi_l {
+    width: 961px;
+    height: 45px;
+    /*overflow:hidden;*/
+    z-index: 9999;
+    margin: 0 auto;
+    clear: both;
+  }
+  .pcHeader ul.gnavi_l li {
+    float: left;
+  }
+  .pcHeader ul.gnavi_l li a {
+    display: block;
+  }
+  .pcHeader div#head_contact {
+    width: 180px;
+    float: left;
+    margin: 25px 0 0 25px;
+  }
+  .pcHeader div#head_contact p {
+    margin: 5px 0 0 0;
+  }
+  .pcHeader div#head_contact p a:hover img {
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    -ms-filter: "alpha( opacity=60 )";
+    background: #fff;
+  }
+  .pcHeader dl#h_sns_ico {
+    width: 320px;
+    float: right;
+    margin-top: 30px;
+  }
+  .pcHeader dl#h_sns_ico dt,
+  .pcHeader dl#h_sns_ico dd {
+    display: inline-block;
+    float: left;
+  }
+  .pcHeader dl#h_sns_ico dd a:hover img {
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    -ms-filter: "alpha( opacity=60 )";
+  }
+  /* ################# PC Footer ################# */
+  .spFooter {
+    display: none;
+  }
+  .pcFooter {
+    display: block;
+  }
+  .pcFooter a {
+    color: #CA0000;
+    text-decoration: none;
+    outline: none;
+  }
+  .pcFooter a:hover {
+    color: #333;
+    text-decoration: underline;
+  }
+  .pcFooter .clearfix:after {
+    display: block;
+    clear: both;
+    content: "";
+  }
+  .pcFooter #footer {
+    background: url(http://www.nsm.ac.jp/common/img/renew/bg_footer.png) #333333 repeat-x top left;
+    padding: 10px 0 10px;
+    font-size: 14px;
+    color: #fff;
+  }
+  .pcFooter .footerContent {
+    margin-bottom: 20px;
+    width: 960px;
+    margin: 0 auto;
+  }
+  .pcFooter #footer .footer_top a img {
+    margin-top: 0px;
+  }
+  .pcFooter #footer .footer_top_p {
+    margin-bottom: 5px;
+    margin-left: 15px;
+    width: 370px;
+    float: right;
+    line-height: 140%;
+  }
+  .pcFooter #footer .footer_top_p a {
+    text-decoration: underline;
+  }
+  .pcFooter #footer .footer_top_p a:hover {
+    color: #fff;
+  }
+  .pcFooter #footer .footer_middle {
+    margin-top: 20px;
+  }
+  .pcFooter #footer .footer_middle #footer_link {
+    font-size: 0.85em;
+    width: 530px;
+    /*width: 610px;*/
+    float: left;
+  }
+  .pcFooter #footer .footer_middle #footer_link #footer_course dl {
+    float: left;
+    line-height: 140%;
+  }
+  .pcFooter #footer .footer_middle #footer_link #footer_course dl.f_pro_mu,
+  .pcFooter #footer .footer_middle #footer_link #footer_course dl.f_da_act {
+    width: 130px;
+    /*width: 150px;*/
+  }
+  .pcFooter #footer .footer_middle #footer_link #footer_course dl.f_da_act {
+    width: 135px;
+  }
+  .pcFooter #footer .footer_middle #footer_link #footer_course dl.f_tech_bus {
+    width: 120px;
+    /*width: 140px;*/
+  }
+  .pcFooter #footer .footer_middle #footer_link a {
+    text-decoration: underline;
+    color: #fff;
+    background: url(http://www.nsm.ac.jp/common/img/ico_f_link.png) no-repeat left 4px;
+    padding-left: 6px;
+  }
+  .pcFooter #footer .footer_middle #footer_link a:hover {
+    text-decoration: none;
+  }
+  .pcFooter #footer .footer_middle #footer_link #footer_course dl a {
+    font-size: 10px;
+  }
+  .pcFooter #footerBtn_area {
+    width: 428px;
+    /*width: 300px;*/
+    float: right;
+  }
+  .pcFooter #footer .footerLeft ul {
+    margin: 0 0 10px 15px;
+  }
+  .pcFooter #footer .footerLeft li {
+    float: left;
+    margin-right: 10px;
+  }
+  .pcFooter #footer .footerLeft li a {
+    border: 1px solid #FFF;
+    display: block;
+  }
+  .pcFooter #footer .footerLeft li a:hover {
+    border: 1px solid #999;
+  }
+  .pcFooter #footer .footerRight {
+    width: 460px;
+    float: right;
+  }
+  .pcFooter #footer .footerRight ul {
+    margin: 10px 0 0 20px;
+  }
+  .pcFooter #footer .footerRight li {
+    float: left;
+    width: 220px;
+    margin-bottom: 5px;
+  }
+  .pcFooter #footer .footerRight li a {
+    background: url(http://www.nsm.ac.jp/common/img/list_nav1.gif) no-repeat left top;
+    padding-left: 12px;
+  }
+  .pcFooter ul.footerBtn li {
+    float: left;
+    margin-left: 8px;
+    width: 100px;
+    display: block;
+    text-align: center;
+    background-color: #FFFFFF;
+  }
+  .pcFooter ul.footerBtn li img {
+    vertical-align: bottom;
+  }
+  .pcFooter ul.footerBtn li:first-child {
+    margin-left: 0;
+  }
+  .pcFooter ul.footerBtn li a:hover img {
+    opacity: 0.7;
+  }
+  .pcFooter ul.footerBtn li a img {
+    -webkit-transition: opacity 0.2s ease-out;
+    transition: opacity 0.2s ease-out;
+  }
+  .pcFooter dl#h_sns_ico {
+    width: 320px;
+    float: right;
+    margin-top: 30px;
+  }
+  .pcFooter dl#h_sns_ico dt,
+  .pcFooter dl#h_sns_ico dd {
+    display: inline-block;
+    float: left;
+  }
+  .pcFooter dl#h_sns_ico dd a:hover img {
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    -ms-filter: "alpha( opacity=60 )";
+  }
+  .pcFooter p.copyright {
+    clear: both;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 30px;
+  }
+  .pcFooter #fixedNav ul {
+    position: fixed;
+    right: 0;
+    top: 180px;
+    z-index: 9999;
+  }
+  .pcFooter #fixedNav ul li {
+    height: 160px;
+    width: 50px;
+  }
+  .pcFooter #fixedNav ul li:first-child {
+    /*margin-bottom: 5px;*/
+  }
+  .pcFooter #fixedNav li a:hover img {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    opacity: 0.8;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  /* ################# SP Header ################# */
+  .pcHeader {
+    display: none;
+  }
+  .spHeader {
+    display: block;
+    /* perfect-scrollbar v0.6.8 */
+    /* gnaviﾂ　end */
+  }
+  .spHeader a {
+    color: #FF0000;
+    text-decoration: none;
+  }
+  .spHeader a:visited {
+    color: #FF0000;
+  }
+  .spHeader a:hover,
+  .spHeader a:active,
+  .spHeader a:focus {
+    text-decoration: none;
+  }
+  .spHeader img {
+    vertical-align: top;
+  }
+  .spHeader #hd_inner {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+  }
+  .spHeader #hd_logo {
+    position: relative;
+    z-index: 10000;
+    background: #FFFFFF;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+  }
+  .spHeader #hd_logo a {
+    padding: 0 5%;
+    display: block;
+  }
+  .spHeader #hd_links {
+    float: right;
+    overflow: hidden;
+  }
+  .spHeader #hd_links li {
+    float: left;
+    text-align: center;
+  }
+  .spHeader #hd_links li a {
+    display: block;
+  }
+  .spHeader .gnavi {
+    position: relative;
+    height: 47px;
+  }
+  .spHeader .gnavi_main {
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    border-top: 1px solid #EA0437;
+    border-bottom: 1px solid #FFFFFF;
+    background: #EA0437;
+  }
+  .spHeader .gnavi_main li {
+    width: 25%;
+  }
+  .spHeader .gnavi_main li:first-child a {
+    border-left: none;
+  }
+  .spHeader .gnavi_main a {
+    font: 85%/1.5 sans-serif;
+    /*font-size: 10px;
+  font-size: .625rem;*/
+    display: block;
+    padding: 5px 0;
+    text-align: center;
+    border-left: 1px solid #FFF;
+    color: #FFF;
+    font-weight: bold;
+    text-shadow: none;
+  }
+  .spHeader .gnavi_main a:link {
+    color: #FFF;
+  }
+  .spHeader .gnavi_main a:visited {
+    color: #FFF;
+  }
+  .spHeader .gnavi_main a:active {
+    color: #FFF;
+  }
+  .spHeader .gnavi_main img {
+    width: 21px;
+    margin: 0 0 2px;
+  }
+  .spHeader .gnavi_main .closeSubMenu {
+    display: none;
+  }
+  .spHeader .gnavi_main.is-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(234, 4, 55, 0.9);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+  .spHeader .gnavi .drawer {
+    position: fixed;
+    z-index: 9998;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 86px 0 0;
+    -webkit-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+    -webkit-transform: translate(-100%, 0);
+    -ms-transform: translate(-100%, 0);
+    transform: translate(-100%, 0);
+  }
+  .spHeader .gnavi .drawer_bg {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  .spHeader .gnavi_container {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+  }
+  .spHeader .gnavi_inner {
+    position: relative;
+    z-index: 2;
+    margin: 8px;
+    padding: 8px 8px 100px 8px;
+    /*padding: 8px;*/
+    -webkit-transition: opacity 1.4s ease;
+    transition: opacity 1.4s ease;
+    opacity: 0;
+    background: #fff;
+  }
+  .spHeader .gnavi_inner a {
+    display: block;
+    padding: 11px 24px 11px 8px;
+    text-shadow: none;
+  }
+  .spHeader .gnavi_inner a:link,
+  .spHeader .gnavi_inner a:visited,
+  .spHeader .gnavi_inner a:active {
+    color: #000;
+  }
+  .spHeader .gnavi_sub {
+    margin: 0;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+    text-shadow: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: wrap;
+    -o-flex-flow: wrap;
+    -ms-flex-flow: wrap;
+    flex-flow: wrap;
+  }
+  .spHeader .bg_red {
+    background: #FDD7D5;
+  }
+  .spHeader .bg_blue {
+    background: #E6FCFF;
+  }
+  .spHeader .gnavi_sub > li {
+    position: relative;
+    /*text-align: center;*/
+    border-top: 1px dotted #000;
+    display: block;
+  }
+  .spHeader .gnavi_sub > li:after {
+    font-family: 'FontAwesome';
+    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 1;
+    position: absolute;
+    top: 0;
+    right: 4px;
+    bottom: 0;
+    display: block;
+    width: 16px;
+    height: 16px;
+    margin: auto;
+    content: '\f144';
+    color: #2596F1;
+  }
+  .spHeader .gnavi_sub li a[href^="http://www"]:after {
+    content: url("http://nsm.ac.jp/common/img/ico_gopc_side.gif");
+    vertical-align: middle;
+  }
+  .spHeader .ul_cmn > li:after {
+    color: #EA0437 !important;
+  }
+  .spHeader .gnavi_sub .gnavi_2column {
+    /* display: -moz-inline-box; 
+  display: inline-block; 
+  vertical-align: top; */
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    width: 50%;
+    border-right: 1px dotted #000;
+  }
+  .spHeader .gnavi_sub .gnavi_ocumpus {
+    background: #E6F2FF;
+  }
+  .spHeader .gnavi_sub .gnavi_request {
+    background: #E6F2FF;
+  }
+  .spHeader .gnavi_sub .gnavi_cre_tit {
+    background: #2596F1;
+    color: #FFFFFF;
+    padding: 10px 8px;
+    font-weight: bold;
+    text-shadow: none;
+  }
+  .spHeader .gnavi_sub .gnavi_cmn_tit {
+    background: #EA0437;
+    color: #FFFFFF;
+    padding: 10px 8px;
+    font-weight: bold;
+    text-shadow: none;
+    border-top: none;
+    width: 100%;
+  }
+  .spHeader .gnavi_sub .gnavi_cmn_tit:after {
+    display: none;
+  }
+  .spHeader li.no_arrow:after {
+    display: none;
+  }
+  .spHeader .gnavi_btns {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    background: #e4dede;
+    text-shadow: none;
+  }
+  .spHeader .gnavi_btns > li {
+    position: relative;
+    width: 50%;
+    text-align: center;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+  }
+  .spHeader .gnavi .btns_top:after {
+    font-family: 'FontAwesome';
+    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 1;
+    position: absolute;
+    top: 0;
+    right: 8px;
+    bottom: 0;
+    display: block;
+    width: 16px;
+    height: 16px;
+    margin: auto 0;
+    content: '\f144';
+    color: #2596F1;
+  }
+  .spHeader .gnavi .btns_close:after {
+    font-family: 'FontAwesome';
+    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 1;
+    position: absolute;
+    top: 0;
+    right: 8px;
+    bottom: 0;
+    display: block;
+    width: 16px;
+    height: 16px;
+    margin: auto 0;
+    content: '\f057';
+    color: #2596F1;
+  }
+  .spHeader .gnavi .is-fixed + .drawer {
+    padding-top: 48px;
+  }
+  .spHeader .gnavi.is-show .closeSubMenu {
+    display: block;
+  }
+  .spHeader .gnavi.is-show .closeSubMenu a {
+    border-left: none;
+  }
+  .spHeader .gnavi.is-show .showSubMenu {
+    display: none;
+  }
+  .spHeader .gnavi.is-show .drawer {
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  .spHeader .gnavi.is-show .gnavi_inner {
+    opacity: 1;
+  }
+  .spHeader .ps-container {
+    -ms-touch-action: none;
+    overflow: hidden !important;
+  }
+  .spHeader .ps-container.ps-active-x > .ps-scrollbar-x-rail, .spHeader .ps-container.ps-active-y > .ps-scrollbar-y-rail {
+    display: block;
+  }
+  .spHeader .ps-container.ps-in-scrolling {
+    pointer-events: none;
+  }
+  .spHeader .ps-container.ps-in-scrolling.ps-x > .ps-scrollbar-x-rail {
+    background-color: #eee;
+    opacity: 0.9;
+  }
+  .spHeader .ps-container.ps-in-scrolling.ps-x > .ps-scrollbar-x-rail > .ps-scrollbar-x {
+    background-color: #999;
+  }
+  .spHeader .ps-container.ps-in-scrolling.ps-y > .ps-scrollbar-y-rail {
+    background-color: #eee;
+    opacity: 0.9;
+  }
+  .spHeader .ps-container.ps-in-scrolling.ps-y > .ps-scrollbar-y-rail > .ps-scrollbar-y {
+    background-color: #999;
+  }
+  .spHeader .ps-container > .ps-scrollbar-x-rail {
+    display: none;
+    position: absolute;
+    border-radius: 4px;
+    opacity: 0;
+    -webkit-transition: background-color 0.2s linear, opacity 0.2s linear;
+    transition: background-color 0.2s linear, opacity 0.2s linear;
+    bottom: 3px;
+    height: 8px;
+  }
+  .spHeader .ps-container > .ps-scrollbar-x-rail > .ps-scrollbar-x {
+    position: absolute;
+    background-color: #aaa;
+    border-radius: 4px;
+    -webkit-transition: background-color 0.2s linear;
+    transition: background-color 0.2s linear;
+    bottom: 0;
+    height: 8px;
+  }
+  .spHeader .ps-container > .ps-scrollbar-y-rail {
+    display: none;
+    position: absolute;
+    border-radius: 4px;
+    opacity: 0.9;
+    z-index: 3;
+    -webkit-transition: background-color 0.2s linear, opacity 0.2s linear;
+    transition: background-color 0.2s linear, opacity 0.2s linear;
+    right: 8px !important;
+    width: 8px;
+  }
+  .spHeader .ps-container > .ps-scrollbar-y-rail > .ps-scrollbar-y {
+    position: absolute;
+    background-color: #aaa;
+    border-radius: 4px;
+    -webkit-transition: background-color 0.2s linear;
+    transition: background-color 0.2s linear;
+    right: 0;
+    width: 8px;
+  }
+  .spHeader .ps-container:hover.ps-in-scrolling {
+    pointer-events: none;
+  }
+  .spHeader .ps-container:hover.ps-in-scrolling.ps-x > .ps-scrollbar-x-rail {
+    background-color: #eee;
+    opacity: 0.9;
+  }
+  .spHeader .ps-container:hover.ps-in-scrolling.ps-x > .ps-scrollbar-x-rail > .ps-scrollbar-x {
+    background-color: #999;
+  }
+  .spHeader .ps-container:hover.ps-in-scrolling.ps-y > .ps-scrollbar-y-rail {
+    background-color: #eee;
+    opacity: 0.9;
+  }
+  .spHeader .ps-container:hover.ps-in-scrolling.ps-y > .ps-scrollbar-y-rail > .ps-scrollbar-y {
+    background-color: #999;
+  }
+  .spHeader .ps-container:hover > .ps-scrollbar-x-rail, .spHeader .ps-container:hover > .ps-scrollbar-y-rail {
+    opacity: 0.6;
+  }
+  .spHeader .ps-container:hover > .ps-scrollbar-x-rail:hover {
+    background-color: #eee;
+    opacity: 0.9;
+  }
+  .spHeader .ps-container:hover > .ps-scrollbar-x-rail:hover > .ps-scrollbar-x {
+    background-color: #999;
+  }
+  .spHeader .ps-container:hover > .ps-scrollbar-y-rail:hover {
+    background-color: #eee;
+    opacity: 0.9;
+  }
+  .spHeader .ps-container:hover > .ps-scrollbar-y-rail:hover > .ps-scrollbar-y {
+    background-color: #999;
+  }
+  /* ################# SP Footer ################# */
+  .pcFooter {
+    display: none;
+  }
+  .spFooter {
+    display: block;
+  }
+  .spFooter .clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .spFooter footer {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#3c3c3c), to(#111));
+    background-image: -webkit-linear-gradient(#3c3c3c, #111);
+    background-image: linear-gradient(#3c3c3c, #111);
+    clear: both;
+  }
+  .spFooter .ft_adress {
+    text-align: center;
+    margin: 1em 0em;
+    font-size: 0.7em;
+    background: #999;
+    overflow: hidden;
+  }
+  .spFooter .ft_adress li {
+    width: 36%;
+    float: left;
+    text-align: center;
+    line-height: 10%;
+    box-sizing: border-box;
+  }
+  .spFooter .ft_adress li div {
+    margin-bottom: -5px;
+  }
+  .spFooter .ft_adress li:first-child {
+    padding: 0;
+  }
+  .spFooter .ft_adress li:nth-child(2) {
+    border-right: solid 1px #666;
+    border-left: solid 1px #666;
+    padding: 0;
+  }
+  .spFooter .ft_adress li:last-child {
+    width: 27%;
+    padding: 0;
+  }
+  .spFooter .ft_adress a {
+    padding: 5px 0;
+    width: 100%;
+    line-height: 1;
+    float: left;
+    text-align: center;
+  }
+  .spFooter .ft_adress li:nth-child(2) a {
+    padding: 11px 0;
+  }
+  .spFooter .ft_adress li:last-child a {
+    padding: 11px 0;
+  }
+  .spFooter .ft_adress a img {
+    width: 15px;
+  }
+  .spFooter .ft_adress .fa {
+    color: #fff;
+    vertical-align: middle;
+  }
+  .spFooter .ft_adress .fa-mobile {
+    font-size: 3.2rem;
+  }
+  .spFooter .ft_adress .fa-envelope {
+    font-size: 2rem;
+  }
+  .spFooter .ft_adress .fa-desktop {
+    font-size: 2rem;
+  }
+  .spFooter .ft_adress a,
+  .spFooter .privacy a,
+  .spFooter .school_link a {
+    color: #000 !important;
+    text-decoration: none;
+    text-shadow: none;
+    display: block;
+  }
+  .spFooter .privacy,
+  .spFooter .school_link {
+    text-align: center;
+    margin: 10px;
+    font-size: 0.7em;
+    background: #EEEEEE;
+    border-radius: 20px;
+    margin: 10px;
+    overflow: hidden;
+    float: left;
+    width: 43%;
+    padding: 5px 0;
+  }
+  .spFooter .school_link {
+    float: right;
+    padding: 5px 0;
+  }
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>${$school.school_alias}<!--{if $event}-->　${$event.event_name}<!--{/if}--><!--{if $form}-->　${$form.title}<!--{/if}--></title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta name="robots" content="noindex,follow,noydir,noodp" />
+
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/form/style.css">
+	<link rel="stylesheet" href="css/form/slick.css">
+	<link rel="stylesheet" href="css/form/slick-theme.css">
+	<link rel="stylesheet" media="all" type="text/css" href="css/form/custom.css" />
+
+	<!--[if lt IE 9]>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div class="container">
+		<header class="pageHeader clearfix">
+			<h1 class="pageTitle"><img src="img/form/header_pc.jpg" alt="${$schoo.school_alias}" width="300" height="80"></h1>
+		</header>
+		<main class="contents">
+			<article>
+				<header class="contentsHeader clearfix">
+					<h2 class="contentsTitle">${$school.school_alias}<!--{if $event}-->　${$event.event_name}<!--{/if}--><!--{if $form}-->　${$form.title}<!--{/if}--></h2>
+					<ol class="steps">
+						<li class="steps_item"><span class="pc"><i class="fa fa-pencil-square-o"></i> 情報の入力</span><span class="sp">1</span></li>
+						<li class="steps_item is-active"><span class="pc"><i class="fa fa-thumbs-o-up"></i> お申し込み完了</span><span class="sp">2</span></li>
+					</ol>
+				</header>
+
+				<div class="thanks">
+					<div class="thanksMsg">
+					<!--{if $event}-->
+						<p class="msg">体験入学のお申込み、<br class="sp">ありがとうございます</p>
+						<div class="btns-02 clearfix">
+							<div class="event btn"><a href="index.html">続けて体験メニューを探す</a></div>
+							<div class="shiryo btn"><a href="http://www.nsm.ac.jp/event/f-shiryo.html">資料請求して学校の事を<br>もっと知ろう！</a></div>
+						</div>
+					<!--{else}-->
+						<!--{if $form.form_type == 1}-->
+							<!-- // 資料請求 //  -->
+							<p class="msg">資料のご請求、<br class="sp">ありがとうございます</p>
+							<!-- <div class="btns-02 clearfix"> -->
+								<!-- <div class="shiryo btn"><a href="http://www.nsm.ac.jp/event/f-shiryo.html">資料請求して学校の事を<br>もっと知ろう！</a></div> -->
+							<div class="btn"><a href="index.html">オープンキャンパス・体験入学に<br>参加しよう！</a></div>
+							<!-- </div> -->
+
+						<!--{elseif $form.form_type == 2}-->
+							<!-- // メルマガ //  -->
+							<p class="msg">メルマガへのご登録、<br class="sp">ありがとうございます</p>
+							<div class="btns-02 clearfix">
+								<div class="shiryo btn"><a href="http://www.nsm.ac.jp/event/f-shiryo.html">資料請求して学校の事を<br>もっと知ろう！</a></div>
+								<div class="event btn"><a href="index.html">オープンキャンパス・体験入学に<br>参加しよう！</a></div>
+							</div>
+
+						<!--{elseif $form.form_type == 3}-->
+							<!-- // アンケート //  -->
+							<p class="msg">アンケートへのご回答、<br class="sp">ありがとうございます</p>
+							<div class="btns-02 clearfix">
+								<div class="shiryo btn"><a href="http://www.nsm.ac.jp/event/f-shiryo.html">資料請求して学校の事を<br>もっと知ろう！</a></div>
+								<div class="event btn"><a href="index.html">オープンキャンパス・体験入学に<br>参加しよう！</a></div>
+							</div>
+
+						<!--{elseif $form.form_type == 4}-->
+							<!-- // バス予約 //  -->
+							<p class="msg">バス予約、<br class="sp">ありがとうございます</p>
+							<div class="btns-02 clearfix">
+								<div class="shiryo btn"><a href="http://www.nsm.ac.jp/event/f-shiryo.html">資料請求して学校の事を<br>もっと知ろう！</a></div>
+								<div class="event btn"><a href="index.html">オープンキャンパス・体験入学に<br>参加しよう！</a></div>
+							</div>
+
+						<!--{elseif $form.form_type == 5}-->
+							<!-- // イベント //  -->
+							<p class="msg">イベントへの申し込み、<br class="sp">ありがとうございます</p>
+							<div class="btns-02 clearfix">
+								<div class="shiryo btn"><a href="http://www.nsm.ac.jp/event/f-shiryo.html">資料請求して学校の事を<br>もっと知ろう！</a></div>
+								<div class="event btn"><a href="index.html">オープンキャンパス・体験入学に<br>参加しよう！</a></div>
+							</div>
+
+						<!--{elseif $form.form_type == 6}-->
+							<!-- // 問合わせ //  -->
+							<p class="msg">お問い合わせ、<br class="sp">ありがとうございます</p>
+							<div class="btns-02 clearfix">
+								<div class="shiryo btn"><a href="http://www.nsm.ac.jp/event/f-shiryo.html">資料請求して学校の事を<br>もっと知ろう！</a></div>
+								<div class="event btn"><a href="index.html">オープンキャンパス・体験入学に<br>参加しよう！</a></div>
+							</div>
+
+						<!--{else}-->
+							<!-- // 新規登録 //  -->
+							<p class="msg">お申込み、<br class="sp">ありがとうございます</p>
+							<div class="btns-02 clearfix">
+								<div class="event btn"><a href="index.html">続けて体験メニューを探す</a></div>
+								<div class="shiryo btn"><a href="http://www.nsm.ac.jp/event/f-shiryo.html">資料請求して学校の事を<br>もっと知ろう！</a></div>
+							</div>
+
+						<!--{/if}-->
+					<!--{/if}-->
+					<!--{if $schoo.school_url_pc}--><p class="schoolTop"><a href="${$schoo.school_url_pc}">学校公式TOPページに戻る</a></p><!--{/if}-->
+					</div>
+				</div>
+
+			</article>
+		</main>
+	</div>
+
+<!--// スライダー //-->
+	<div class="eventSlide">
+		<h3>PICK UP EVENT <span class="sub">注目イベント</span></h3>
+		<ul class="slider">
+<!--{cms_event method="find" var="thumb_list" school_code=$school.school_code event_status=1 is_view=1 paging="true" pgsz="15" cache=true}-->
+<!--{foreach name=idx from=$thumb_list.list key=code item=item}-->
+			<li><a href="e-${$item.event_id}.html"><img src="<!--{$item.event_image2_url}-->" alt=""><span class="text"><span class="title"><!--{$item.event_title}--></span><br><span class="date"><!--{foreach name=idx2 from=$item.event_date_unique_view item=edt}--><!--{$edt}--><!--{/foreach}--></span><br><!--{$item.event_catchcopy}--></span></a></li>
+<!--{/foreach}-->
+		</ul>
+	</div>
+<!--// スライダー //-->
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.11.3.min.js"><\/script>')</script>
+	<script src="js/slick.js"></script>
+	<script src="js/slider.js"></script>
+<!--// トラッキング //-->
+<!--{include file="html:.templates/.thanks_tracking.html"}-->
+<!--{include file="html:.templates/.tracking.html"}-->
+<!--// トラッキング //-->
+</body>
+</html>
