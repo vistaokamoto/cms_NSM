@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="utf-8">
+<title>Myスクールプログラム｜名古屋スクールオブミュージック＆ダンス専門学校</title>
+<meta name="description" content="${$school.school_name}">
+<meta name="keywords" content="${$school.school_name}">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1/i18n/jquery.ui.datepicker-ja.min.js"></script>
+<script src="js/jquery-ui.multidatespicker.js"></script>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1/themes/ui-lightness/jquery-ui.css" >
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link href="http://www.nsm.ac.jp/common/css/myschool.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" media="all" type="text/css" href="css/style.css" />
+<link rel="stylesheet" media="all" type="text/css" href="css/custom.css" />
+<style type="text/css">
+@media screen and (min-width: 768px) {
+	div.ui-datepicker {
+		font-size: 1.6rem !important;
+		margin: 0 auto;
+	}
+}
+@media screen and (max-width: 767px) {
+	div.ui-datepicker {
+        font-size: 1.6rem;
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+.ui-datepicker th {
+    padding: 0.5em 0.3em;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    height: 30px;
+}
+</style>
+
+<!--[if lt IE 9]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<link rel="shortcut icon" href="img/favicon.ico" >
+<script type="text/javascript" src="js/jquery-1.8.3.js"></script> 
+<script type="text/javascript" src="js/mys_thickbox.js"></script> 
+<link rel="stylesheet" href="css/mys_thickbox.css" type="text/css" media="all" />
+<script type="text/javascript">
+//accordion
+$(document).ready(function() {
+  $(".accMenu_myschool p.title").hover(function(){
+    $(this).css("cursor","pointer"); 
+  },function(){
+    $(this).css("cursor","default"); 
+    });
+  $(".accMenu_myschool div.Myschool_cont_open").css("display","none");
+  
+  $(".accMenu_myschool p.title").click(function(){
+    $(this).next().slideToggle("fast,");
+    $(this).toggleClass("open");
+    });
+});
+</script>
+</head>
+<body>
+<!--// ヘッダー //-->
+<!--{include file="html:.templates/.header.html"}-->
+<!--// ヘッダー //-->
+
+<section id="contant">
+<!--// 検索結果パンくず //-->
+<!--{include file="html:.templates/.results_pankuzu.html"}-->
+<!--// 検索結果パンくず //-->
+
+	<div class="right">
+
+	<div id="Myschool">
+
+
+<!-- ココから20161124変更分 -->
+<p class="mgBottom10"><img src="img/myschool/myschool_catch.png" alt="高2生の今が進路選択のチャンス！選び方いろいろ！好きなレッスンを受けてレベルアップ！" /></p>
+
+<h3 class="mgBottom10">Myスクールプログラム</h3>
+<p style="text-align: right; font-size: 1.2em;">※高１生の方も受講可能です。</p>
+
+<!-- Myスクールプログラムとは？ -->
+<h4 class="midashiBox">Myスクールプログラムとは？</h4>
+<div class="mgBottom10 bg_pro_01">
+<img src="img/myschool/myschool_pro_02.png" alt="" class="floatLeft" />
+<p class="mgRight10 font14">入学前から基本を身に付け、誰よりも早く<br class="sp_none">デビュー・就職を目指すプログラムです。<br>
+自分の興味に合わせて好きなコースのレッスンを受けながら<br class="sp_none">レベルアップしていこう！
+
+</p>
+</div>
+<p class="center mgBottom20"><img src="img/myschool/myschool2.png" width="100%" alt="Myスクールプログラムにあなたが参加すると？" /></p>
+<!-- Myスクールプログラムとは？ -->
+
+<!-- Myスクール登録のメリット -->
+<!-- sp用 -->
+<div class="Myschool_merit mgBottom20 pc_none"><img src="img/myschool/myschool9.png" width="100%" alt="Myスクール受講のメリット！"><a href="img/myschool/myschool10.png" class="thickbox"><img src="img/myschool/myschool11.png" width="100%" alt=""></a>
+</div>
+<!-- sp用 -->
+<!-- PC用 -->
+<div class="Myschool_merit mgBottom20 sp_none"><img src="img/myschool/myschool9.png" alt="Myスクール受講のメリット！" width="100%">
+<a href="img/myschool/myschool10.png" class="thickbox"><img src="img/myschool/myschool11.png" width="100%" alt=""></a>
+</div>
+<!-- PC用 -->
+<!-- Myスクール登録のメリット -->
+
+<!-- Myスクール登録・予約 -->
+<!-- sp用 -->
+<div class="Myschool_entry pc_none">
+	<img src="img/myschool/myschool6.png" width="100%" alt="Myスクール登録方法">
+	<a href="f-myschoolentry.html" class="results_entry_btn mgBottom15">申込はコチラ</a>
+	<img src="img/myschool/myschool7.png" width="100%" alt="Myスクール予約方法">
+	<a href="tel:0120329758"><img src="img/myschool/myschool8_sp01.png" width="80%" alt="電話番号" class="mgBottom15 mgTop10"></a>
+	<a href="mailto:info@nsm.ac.jp"><img src="img/myschool/myschool8_sp02.png" width="80%" alt="E-mail"></a>
+</div>
+<!-- sp用 -->
+<!-- pc用 -->
+<div class="Myschool_entry sp_none">
+	<img src="img/myschool/myschool6.png" width="100%" alt="Myスクール登録方法">
+	<a href="f-myschoolentry.html" class="results_entry_btn mgBottom15">申込はコチラ</a>
+	<img src="img/myschool/myschool7.png" width="100%" alt="Myスクール予約方法">
+	<img src="img/myschool/myschool8_pc.png" width="80%" alt="" usemap="#mail" class="mgBottom15 mgTop10">
+	<map name="mail">
+	<area shape="rect" coords="239,0,460,30" href="mailto:info@nsm.ac.jp" alt="E-mail">
+	</map>
+</div>
+<!-- pc用 -->
+<!-- Myスクール登録・予約 -->
+
+<!-- Myスクール担任制度 -->
+<div class="accMenu_myschool"><p class="title"><span>1人1人をサポート！ Myスクール担任紹介</span></p>
+	<div class="Myschool_cont_open">
+		<p class="font14">私たちが、あなたの夢を徹底サポート！</p>
+		<div class="Myschool_teacher_box mgBottom10 mgTop10">
+		<dl>
+		<dt>Myスクール担任とは？</dt>
+		<dd>Myスクール生の皆さんと一緒にレッスンやお楽しみイベントに参加しながら皆さん１人１人の不安や悩みを解決し、進路決定まで徹底サポート！「まだやりたいことがはっきり決まっていないけどどうしたらいいの？」「学校選びのポイントって？」「入学までにどんなことを準備しておけばいいの？」など、何でもご相談下さい♪</dd>
+		</dl>
+		</div>
+		<!-- SP用画像 -->
+		<div class="pc_none">
+		<p><img src="img/myschool/myschool3_sp01.jpg" alt="" width="100%" />
+		<img src="img/myschool/myschool3_sp02.jpg" alt="" width="100%" /></p>
+		</div>
+		<!-- SP用画像 -->
+		<!-- PC用画像 -->
+		<div class="clearfix mgBottom10 pro_teacher_box sp_none">
+		<img src="img/myschool/myschool3_pc.jpg" alt="Myスクール担任紹介" width="100%" />
+		</div>
+		<!-- PC用画像 -->
+	</div>
+</div>
+<!-- Myスクール担任制度 -->
+
+<!-- MyスクールQ&A -->
+<div class="accMenu_myschool"><p class="title"><span>よくある質問！ MyスクールQ&A</span></p>
+	<div class="Myschool_cont_open">
+	<div class="Myschool_qa mgBottom20"><img src="img/myschool/myschool4.png" width="100%" alt="よくある質問！MyスクールＱ＆Ａ"></div>
+	</div>
+</div>
+<!-- MyスクールQ&A -->
+
+<!-- Myスクール開催レッスン -->
+<h4 class="midashiBox">レッスン内容</h4>
+
+<!-- <p class="mgBottom20">参加費無料!私服でお越し下さい。<br>
+ギター・ベースなど楽器のお持ちの方はご持参ください。<br />
+希望者は13:15から開催される“職業体験”にも参加することができます。</p> -->
+<p class="red font14 mgBottom10 bold"><span>参加無料</span>、<span>私服OK</span>、<span>職業体験参加もOK</span></p>        
+<p><img src="img/myschool/time2016.jpg" alt="タイムスケジュール" ></p>
+
+<h5 class="h5_text">レッスンを選ぶ</h5>
+<div class="btn_area">
+<a href="e-myschool_vocal.html" class="results_entry_btn img_btn"><span>ヴォーカリスト</span><p><img src="img/myschool/mu_vocal.jpg" alt=""></p></a>
+<a href="e-myschool_musician.html" class="results_entry_btn img_btn"><span>ミュージシャン</span><p><img src="img/myschool/mu_musician.jpg" alt=""></p></a>
+</div>
+<div class="btn_area">
+<a href="e-myschool_concert.html" class="results_entry_btn img_btn"><span>音響（PA）</span><p><img src="img/myschool/mu_pa.jpg" alt=""></p></a>
+<a href="e-myschool_concert_light.html" class="results_entry_btn img_btn"><span>照明</span><p><img src="img/myschool/mu_light.jpg" alt=""></p></a>
+</div>
+<div class="btn_area">
+<a href="e-myschool_business.html" class="results_entry_btn img_btn"><span class="font11">コンサート企画・マネージャー・ファンクラブスタッフ・ライブハウススタッフ・ツアーマネージャー</span><p><img src="img/myschool/mu_business.jpg" alt=""></p></a>
+<a href="e-myschool_creator.html" class="results_entry_btn img_btn"><span>作曲・レコーディング・<br>アーティスト＆<br>プロデューサー</span><p><img src="img/myschool/mu_creater.jpg" alt=""></p></a>
+</div>
+<div class="btn_area">
+<a href="e-myschool_dance.html" class="results_entry_btn img_btn"><span>ダンサー</span><p><img src="img/myschool/mu_dance.jpg" alt=""></p></a>
+<a href="e-myschool_actor.html" class="results_entry_btn img_btn"><span>声優・俳優</span><p><img src="img/myschool/mu_actor.jpg" alt=""></p></a>
+</div>
+<div class="btn_area">
+<a href="results.html?date=&type[]=12%2C13&keyword=My%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB" class="results_entry_btn">Myスクールレッスン一覧を見る</a>
+</div>
+<!-- Myスクール開催レッスン -->
+
+<!-- ココまで20161124変更分 -->
+
+</div>
+
+	</div><!--end .right-->
+
+	<div class="left">
+<!--// 検索結果サイドナビ //-->
+<!--{include file="html:.templates/.results_side.html"}-->
+<!--// 検索結果サイドナビ //-->
+
+<!--// 学校個別サイドエリア //-->
+<!--{include file="html:/"|cat:$school.school_id|cat:"/side_area.html"}-->
+<!--// 学校個別サイドエリア //-->
+
+	</div><!--end .left-->
+
+	<div class="sp_cover_btn">
+		<a href="javascript:void(0);" class="btn_left reset"><i class="fa fa-repeat btn_ico"></i><span>検索条件を</span><br>リセットする</a>
+		<a href="javascript:document.getElementById('find').submit();" class="btn_right active"><span>この条件で</span><br>検索する</a>
+	</div>
+
+</section>
+<!--// フッター //-->
+<!--{include file="html:.templates/.footer.html"}-->
+<!--// フッター //-->
+<!--// トラッキング //-->
+<!--{include file="html:.templates/.tracking.html"}-->
+<!--// トラッキング //-->
+</body>
+</html>
