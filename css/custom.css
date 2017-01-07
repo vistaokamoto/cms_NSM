@@ -268,7 +268,8 @@ h5.h5_text {
 	width: 100%;
 }
 /*その他のオープンキャンパスメニュー*/
-#other_area {
+#other_area,
+#course_point_area {
 	margin-top:20px;
 	float:none;
 	width:100%;
@@ -278,7 +279,8 @@ h5.h5_text {
 	overflow: hidden;
 	clear: both;
 }
-#other_area p {
+#other_area p,
+#course_point_area p {
 	text-align:center;
 	background-color:#000;
 	color:#FFF;
@@ -287,12 +289,14 @@ h5.h5_text {
 	margin-bottom:15px;
 	font-size:16px!important;
 }
-#other_area li {
+#other_area li,
+#course_point_area li {
 	width:19%;
 	float:left;
 	margin-right:10px;
 }
-#other_area li a {
+#other_area li a,
+#course_point_area li a {
 	display:block;
 	font-size:14px!important;
 	padding:5px 5px 15px;
@@ -308,27 +312,33 @@ h5.h5_text {
 	-o-transition: 0.2s ease-in-out;
 	transition: 0.2s ease-in-out;
 }
-#other_area li a img {
+#other_area li a img,
+#course_point_area li a img {
 	display:block;
 	margin-bottom:15px;
 	width: 100%;
 }
-#other_area li a:hover {
+#other_area li a:hover,
+#course_point_area li a:hover {
 	background-color:#EA0437;
 	color:#FFF;
 }
-#other_area li.other_area_two_line a {
+#other_area li.other_area_two_line a,
+#course_point_area li.other_area_two_line a {
 	padding: 5px 5px 4px;
 	font-size: 12px;
 }
-#other_area li.other_area_two_line a img {
+#other_area li.other_area_two_line a img,
+#course_point_area li.other_area_two_line a img {
 	margin-bottom: 5px;
 }
-#other_area li.other_area_three_line a {
+#other_area li.other_area_three_line a,
+#course_point_area li.other_area_three_line a {
 	padding: 7px 4px;
 	font-size: 12.4px !important;
 }
-#other_area li.other_area_three_line a img {
+#other_area li.other_area_three_line a img,
+#course_point_area li.other_area_three_line a img {
 	margin-bottom: 5px;
 }
 .syousai_box {
@@ -922,7 +932,8 @@ ul.foot_menu {
 	}
 	
 	/*その他のオープンキャンパス*/
-	#other_area li:nth-child(5n) {
+	#other_area li:nth-child(5n),
+	#course_point_area li:nth-child(5n) {
 	margin-right:0;
 	}
 
@@ -1186,13 +1197,15 @@ ul.foot_menu {
 		background: #fff;
 	}
 	/*その他のオープンキャンパスメニュースマホ*/
-	#other_area {
+	#other_area,
+	#course_point_area {
 	margin:30px 0 0;
 	background: url(http://www.nsm.ac.jp/common/img/gray_bg.gif) repeat top left #EEE;
 	padding:20px 10px 15px;
 	box-sizing:border-box;	
 	}
-	#other_area p {
+	#other_area p,
+	#course_point_area p {
 		text-align:center;
 		background-color:#000;
 		color:#FFF;
@@ -1201,15 +1214,18 @@ ul.foot_menu {
 		font-weight:bold;
 		margin-bottom:10px;
 	}
-	#other_area li {
+	#other_area li,
+	#course_point_area li {
 		float:left;
 		width:49%;
 		margin:0 2% 5px 0;
 	}
-	#other_area li:nth-child(2n) {
+	#other_area li:nth-child(2n),
+	#course_point_area li:nth-child(2n)	 {
 		margin-right:0;
 	}
-	#other_area li a {
+	#other_area li a,
+	#course_point_area li a {
 		display:block;
 		padding:5px 5px 10px;
 		background-color:#FFF;
@@ -1223,22 +1239,27 @@ ul.foot_menu {
 		white-space: nowrap;
 		text-overflow: ellipsis;
 	}
-	#other_area li a img {
+	#other_area li a img,
+	#course_point_area li a img {
 		display:block;
 		margin-bottom:8px;
 	}
-	#other_area li.other_area_two_line a {
+	#other_area li.other_area_two_line a,
+	#course_point_area li.other_area_two_line a {
 	padding: 5px 5px 0;
 	font-size: 12px!important;
 	}
-	#other_area li.other_area_two_line a img {
+	#other_area li.other_area_two_line a img,
+	#course_point_area li.other_area_two_line a img {
 		margin-bottom: 3px;
 	}
-#other_area li.other_area_three_line a {
+#other_area li.other_area_three_line a,
+#course_point_area li.other_area_three_line a {
 	padding: 5px 5px 9px;
 	font-size: 9px !important;
 }
-#other_area li.other_area_three_line a img {
+#other_area li.other_area_three_line a img,
+#course_point_area li.other_area_three_line a img {
 		margin-bottom: 3px;
 }
 	.sp_none {
@@ -1387,62 +1408,89 @@ ul.foot_menu {
 	bottom: 0;
 	left: 0;
 	width: 100%;
+	box-shadow:0px -5px 2px -5px #333333;
+	-moz-box-shadow:0px -5px 2px -5px #333333;
+	-webkit-box-shadow:0px -5px 2px -5px #333333;
+	border-top: #000 solid 1px;
+	background: #FED223;
+	-webkit-background-size: 20px 20px;
+	-moz-background-size: 20px 20px;
+	background-size: 20px 20px;
+	background-image: linear-gradient(
+    -45deg,
+    #FEDE61 25%,
+    #FED223 25%, #FED223 50%,
+    #FEDE61 50%, #FEDE61 75%,
+    #FED223 75%, #FED223
+  );
+  /* 幅8px、高さ8pxで背景画像のサイズを指定 */
+  background-size: 8px 8px;
 }
 #footNavi li {
 	float: left;
-	background: #EA0437;
 	font-size: 1.4rem;
 	text-align: center;
 	font-weight: bold;
 }
 #footNavi li .fa {
-	font-size: 2.0rem;
+	font-size: 1.9rem;
 }
 #footNavi li a {
 	display: block;
-	padding: 15px 0;
-	line-height: 1;
-	color: #fff;
+	/*padding: 15px 0;*/
+	padding: 5px 0;
+	line-height: 130%;
+	color:#000;
+	min-height: 40px;
 }
 #footNavi li:first-child {
-	width: 95px;
+	width: 120px;
 	position: absolute;
 	bottom: 0;
 	left: 0;
 	z-index: 100;
 	background: none;
 }
-#footNavi li:nth-child(3) {
+/*#footNavi li:nth-child(3) {
 	width: 53px;
 	position: absolute;
 	bottom: 0;
 	left: 43%;
 	z-index: 100;
 	background: none;
-}
-#footNavi li:first-child a,
-#footNavi li:nth-child(3) a {
+}*/
+#footNavi li:first-child a {
 	padding: 0;
 }
 #footNavi li:last-child {
-	width: 50px;
+	border-left: 1px solid #000;
+	box-sizing: border-box;
+	width: 10%;
+}
+#footNavi li:last-child a {
+	padding: 15px 0;
+	box-sizing: border-box;
+}
+/*#footNavi li:last-child {
 	background: #000;
 }
 #footNavi li:last-child a {
 	color: #fff;
-	padding-left: 8%!important;
+}*/
+#footNavi li:nth-child(2) {
+	width: 90%;
 }
 #footNavi li:nth-child(2) a {
-	margin-left: 34px;
+	margin-left: 30px;
+	font-size: 1.05em;
 }
-#footNavi li:nth-child(2) {
-	width: 45%;
-}
-#footNavi li:nth-child(4) {
-	padding-left: 10%!important;
-	width: calc(55% - 50px);
-	border-left: 1px solid #fff;
-	box-sizing: border-box;
+#footNavi li:nth-child(2) a span {
+	font-size: 0.8em;
+	background: #000;
+	display: inline-block;
+	padding: 0 5px;
+	color: #FFF;
+	font-weight: normal;
 }
 
 	/* ################# result ################# */
